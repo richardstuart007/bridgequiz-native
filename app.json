@@ -44,6 +44,9 @@
         "asyncRoutes": {
           "web": true
         }
+      },
+      "eas": {
+        "projectId": "3abe22a7-b4c2-4710-8d9b-7997655fdfe1"
       }
     },
     "owner": "richardstuart007-team"

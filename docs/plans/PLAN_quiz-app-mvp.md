@@ -99,6 +99,9 @@ Quiz app MVP — Expo app (copied from bridgeschool-native) running quizzes from
   placeholder, as in bridgeschool-native), src/appVersion.ts
 
 ### app.json
+- `eas init --non-interactive --force` created Expo project
+  @richardstuart007-team/bridgequiz-native and wrote `extra.eas.projectId`
+  3abe22a7-b4c2-4710-8d9b-7997655fdfe1
 - Agreed renames (Bridge Quiz, bridgequiz-native, bridgequiznative, com.richardstuart007.bridgequiz,
   1.0.0); removed EAS projectId (new Expo project needed), storage/media permissions, iOS
   file-sharing keys, expo-video and expo-media-library plugins

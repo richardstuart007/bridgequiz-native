@@ -98,8 +98,11 @@ The global `~/.claude/CLAUDE.md` assumes Next.js + nextjs-shared. **This project
 - No `qq_help` in the exported questions — feedback screen shows only right/wrong + correct
   answer until help text is added in next-bridgeschool.
 - App name agreed "Bridge Quiz", package com.richardstuart007.bridgequiz, repo
-  richardstuart007/bridgequiz-native, APK AndroidBridgequiz.apk (2026-10-25). Still to do: git
-  init + create the GitHub repo, create/link the Expo project (`eas init`), first EAS build.
+  richardstuart007/bridgequiz-native (public, created 2026-10-25), APK AndroidBridgequiz.apk.
+  Expo project @richardstuart007-team/bridgequiz-native, ID
+  `3abe22a7-b4c2-4710-8d9b-7997655fdfe1` (linked in app.json 2026-10-25). Release routine is
+  the same as bridgeschool-native: bump app.json `expo.version` → commit + push →
+  `npm run release:android`.
 - Icon is Expo's placeholder (copied from bridgeschool-native).
 - richard-dashboard "Bridge Quiz" Android download card — instruction handed to the user
   2026-10-25 (one new `apps.ts` entry after the Android "Bridge School" entry, `androidDownload`
