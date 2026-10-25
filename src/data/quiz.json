@@ -1,0 +1,4478 @@
+{
+  "exported_at": "2026-10-25T10:16:32.765Z",
+  "subjects": [
+    {
+      "sb_sbid": 6,
+      "sb_owner": "Richard",
+      "sb_subject": "Cue1st2ndControls",
+      "sb_title": "Cue 1st and 2nd Controls",
+      "sb_level": "Advanced"
+    },
+    {
+      "sb_sbid": 1006,
+      "sb_owner": "Richard",
+      "sb_subject": "Lebensohl",
+      "sb_title": "Lebensohl",
+      "sb_level": "Advanced"
+    },
+    {
+      "sb_sbid": 17,
+      "sb_owner": "Richard",
+      "sb_subject": "TwoWayCheckback",
+      "sb_title": "Two Way Checkback",
+      "sb_level": "Advanced"
+    },
+    {
+      "sb_sbid": 5,
+      "sb_owner": "Richard",
+      "sb_subject": "BergenRaises",
+      "sb_title": "Bergen Raises",
+      "sb_level": "Intermediate"
+    },
+    {
+      "sb_sbid": 11,
+      "sb_owner": "Richard",
+      "sb_subject": "MichaelsCueBid",
+      "sb_title": "Michaels Cue Bid",
+      "sb_level": "Intermediate"
+    },
+    {
+      "sb_sbid": 15,
+      "sb_owner": "Richard",
+      "sb_subject": "Quantitative4NT",
+      "sb_title": "Quantitative 4NT",
+      "sb_level": "Intermediate"
+    },
+    {
+      "sb_sbid": 16,
+      "sb_owner": "Richard",
+      "sb_subject": "Redoubles",
+      "sb_title": "Re-doubles",
+      "sb_level": "Intermediate"
+    }
+  ],
+  "questions": [
+    {
+      "qq_qqid": 244,
+      "qq_sbid": 5,
+      "qq_seq": 1,
+      "qq_detail": "What do you respond to partner's 1H with 3 card support and 6-9 hcp ?",
+      "qq_ans": [
+        "2H",
+        "3H",
+        "3C",
+        "3D"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": ""
+    },
+    {
+      "qq_qqid": 245,
+      "qq_sbid": 5,
+      "qq_seq": 2,
+      "qq_detail": "What do you respond to partner's 1H with 3 card support and 10-12 hcp ?",
+      "qq_ans": [
+        "2S",
+        "3C",
+        "3D",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 246,
+      "qq_sbid": 5,
+      "qq_seq": 3,
+      "qq_detail": "What do you respond to partner's 1S with 3 card support and 10-12 hcp ?",
+      "qq_ans": [
+        "3H",
+        "3C",
+        "3D",
+        "3S"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 247,
+      "qq_sbid": 5,
+      "qq_seq": 4,
+      "qq_detail": "What do you respond to partner's 1H with 3 card support and 16+ hcp ?",
+      "qq_ans": [
+        "2x delayed game raise",
+        "2NT jacoby",
+        "3NT pudding raise",
+        "4H"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 248,
+      "qq_sbid": 5,
+      "qq_seq": 5,
+      "qq_detail": "What do you respond to partner's 1H with 4 card support and 6-9 hcp ?",
+      "qq_ans": [
+        "3C",
+        "3H",
+        "2S"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 249,
+      "qq_sbid": 5,
+      "qq_seq": 6,
+      "qq_detail": "What do you respond to partner's 1H with 4 card support and 10-12 hcp ?",
+      "qq_ans": [
+        "3D",
+        "3C",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 250,
+      "qq_sbid": 5,
+      "qq_seq": 7,
+      "qq_detail": "What do you respond to partner's 1H with 4 card support and 0-5 hcp ?",
+      "qq_ans": [
+        "3H",
+        "3C",
+        "2H"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 251,
+      "qq_sbid": 5,
+      "qq_seq": 8,
+      "qq_detail": "What do you respond to partner's 1H with 4 card support and 13+ hcp ?",
+      "qq_ans": [
+        "2NT",
+        "3D",
+        "4H",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 252,
+      "qq_sbid": 5,
+      "qq_seq": 9,
+      "qq_detail": "What do you respond to partner's 1H with 4 card support and 16+ hcp ?",
+      "qq_ans": [
+        "2NT",
+        "3D",
+        "4H",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 253,
+      "qq_sbid": 5,
+      "qq_seq": 10,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, VUL and NO singleton ?",
+      "qq_ans": [
+        "3H",
+        "4H",
+        "3D",
+        "3C"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": ""
+    },
+    {
+      "qq_qqid": 254,
+      "qq_sbid": 5,
+      "qq_seq": 11,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, VUL and a SINGLETON ?",
+      "qq_ans": [
+        "4H",
+        "3H",
+        "3D",
+        "3C"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 255,
+      "qq_sbid": 5,
+      "qq_seq": 12,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, NON-VUL and NO singleton ?",
+      "qq_ans": [
+        "4H",
+        "3H",
+        "3D",
+        "3C"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 256,
+      "qq_sbid": 5,
+      "qq_seq": 13,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, NON-VUL and a SINGLETON ?",
+      "qq_ans": [
+        "4H",
+        "3H",
+        "3D",
+        "3C"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 257,
+      "qq_sbid": 5,
+      "qq_seq": 14,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 6-9 hcp ?",
+      "qq_ans": [
+        "4H",
+        "3H",
+        "3D",
+        "3C"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 258,
+      "qq_sbid": 5,
+      "qq_seq": 15,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 10-12 hcp ?",
+      "qq_ans": [
+        "3D",
+        "3C",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 259,
+      "qq_sbid": 5,
+      "qq_seq": 16,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 13+ hcp ?",
+      "qq_ans": [
+        "2NT",
+        "3D",
+        "4H",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 260,
+      "qq_sbid": 5,
+      "qq_seq": 17,
+      "qq_detail": "What do you respond to partner's 1H with 5 card support and 16+ hcp ?",
+      "qq_ans": [
+        "2NT",
+        "3D",
+        "4H",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 261,
+      "qq_sbid": 5,
+      "qq_seq": 18,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "3D",
+        "3C",
+        "3S",
+        "2S"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "KQ92",
+        "732",
+        "QJ8",
+        "A86"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 262,
+      "qq_sbid": 5,
+      "qq_seq": 19,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2NT Jacoby",
+        "3D",
+        "3S",
+        "4S"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "AKT3",
+        "985",
+        "KT6",
+        "KJ5"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 263,
+      "qq_sbid": 5,
+      "qq_seq": 20,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2NT Jacoby",
+        "3D",
+        "3S",
+        "4S"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "Q732",
+        "AT6",
+        "KQ97",
+        "AJ"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 264,
+      "qq_sbid": 5,
+      "qq_seq": 21,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2D game force",
+        "3NT pudding raise",
+        "2NT Jocoby"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "K54",
+        "K87",
+        "AJ953",
+        "K7"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 265,
+      "qq_sbid": 5,
+      "qq_seq": 22,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2D delayed game raise or 3NT pudding raise",
+        "2NT jacoby"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "K54",
+        "K87",
+        "AJ953",
+        "K7"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 266,
+      "qq_sbid": 5,
+      "qq_seq": 23,
+      "qq_detail": "What is your bid and you are PLAYING 2/1 ?",
+      "qq_ans": [
+        "2C game force",
+        "3NT pudding raise",
+        "2NT Jocoby"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "AT6",
+        "AKT",
+        "J72",
+        "KJT3"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 267,
+      "qq_sbid": 5,
+      "qq_seq": 24,
+      "qq_detail": "What is your bid and you are PLAYING STANDARD AMERICAN ?",
+      "qq_ans": [
+        "3NT pudding raise",
+        "2NT jacoby",
+        "2C game force"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "AT6",
+        "AKT",
+        "J72",
+        "KJT3"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 268,
+      "qq_sbid": 5,
+      "qq_seq": 25,
+      "qq_detail": "What does 3D by partner mean ?",
+      "qq_ans": [
+        "Game try, accept if maximum",
+        "Min, forced to bid 3S",
+        "Game force"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "3C",
+          "PASS"
+        ],
+        [
+          "3D",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 269,
+      "qq_sbid": 5,
+      "qq_seq": 26,
+      "qq_detail": "What does 3H by partner mean ?",
+      "qq_ans": [
+        "Game try, accept if not minimum",
+        "Min, forced to bid 3S",
+        "Game force"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "3C",
+          "PASS"
+        ],
+        [
+          "3H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 270,
+      "qq_sbid": 5,
+      "qq_seq": 27,
+      "qq_detail": "What does 3S by partner mean ?",
+      "qq_ans": [
+        "Sign off",
+        "Game try",
+        "Game force"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "3C",
+          "PASS"
+        ],
+        [
+          "3S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 271,
+      "qq_sbid": 5,
+      "qq_seq": 28,
+      "qq_detail": "What does 4C by partner mean ?",
+      "qq_ans": [
+        "Club Control",
+        "Fit in clubs",
+        "Partner forgot the system",
+        "Gerber"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "3C",
+          "PASS"
+        ],
+        [
+          "4C",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 272,
+      "qq_sbid": 5,
+      "qq_seq": 29,
+      "qq_detail": "What does 4C by partner mean ?",
+      "qq_ans": [
+        "Club Control",
+        "Partner is 5/5 in spades and clubs",
+        "Partner forgot the system",
+        "Gerber"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "3D",
+          "PASS"
+        ],
+        [
+          "4C",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 273,
+      "qq_sbid": 5,
+      "qq_seq": 30,
+      "qq_detail": "What does 3C by partner mean ?",
+      "qq_ans": [
+        "Shortage in Clubs",
+        "Club suit 4+",
+        "Waiting bid"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "3C",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 274,
+      "qq_sbid": 5,
+      "qq_seq": 31,
+      "qq_detail": "What does 3NT by partner mean ?",
+      "qq_ans": [
+        "15/16-17 no shortage",
+        "To play",
+        "15/16-17 may have a shortage",
+        "Relay to 4S"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "3NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 275,
+      "qq_sbid": 5,
+      "qq_seq": 32,
+      "qq_detail": "What does 3S by partner mean ?",
+      "qq_ans": [
+        "18-19 no shortage",
+        "To play, partner is minimum",
+        "18-19 may have a shortage"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "3S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 276,
+      "qq_sbid": 5,
+      "qq_seq": 33,
+      "qq_detail": "What does 4S by partner mean ?",
+      "qq_ans": [
+        "11-14/15 no shortage",
+        "11-14/15 may have a shortage",
+        "Minimum, to play"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "4S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 277,
+      "qq_sbid": 5,
+      "qq_seq": 34,
+      "qq_detail": "You are PLAYING 2/1.  How do you agree spades ?",
+      "qq_ans": [
+        "3S",
+        "4S"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 288,
+      "qq_sbid": 6,
+      "qq_seq": 1,
+      "qq_detail": "What is 3S ?",
+      "qq_ans": [
+        "Control in Spades",
+        "Suit Trial bid",
+        "Natural spades"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3H",
+          "PASS"
+        ],
+        [
+          "3S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": ""
+    },
+    {
+      "qq_qqid": 289,
+      "qq_sbid": 6,
+      "qq_seq": 2,
+      "qq_detail": "What is 2S ?",
+      "qq_ans": [
+        "Game try trial bid",
+        "Control in Spades",
+        "Natural spades"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "2H",
+          "PASS"
+        ],
+        [
+          "2S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 290,
+      "qq_sbid": 6,
+      "qq_seq": 3,
+      "qq_detail": "What is 3S ?",
+      "qq_ans": [
+        "Agreeing hearts as trumps",
+        "Asking for a stop in Spades",
+        "Showing 5 Spades"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2H",
+          "PASS",
+          "3S",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 291,
+      "qq_sbid": 6,
+      "qq_seq": 4,
+      "qq_detail": "3NT (3 hearts, 13-15 hcp).  What is 4C ?",
+      "qq_ans": [
+        "Cue of Clubs, agreeing Hearts",
+        "Gerber",
+        "5+ clubs"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3NT",
+          "PASS"
+        ],
+        [
+          "4C",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 292,
+      "qq_sbid": 6,
+      "qq_seq": 5,
+      "qq_detail": "What is 3S ?",
+      "qq_ans": [
+        "Agreeing spades, start of Cue bidding",
+        "Invitational in Spades",
+        "Weak Spades"
+      ],
+      "qq_rounds": [
+        [
+          "2C",
+          "PASS",
+          "2D",
+          "PASS"
+        ],
+        [
+          "2S",
+          "PASS",
+          "3S",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 293,
+      "qq_sbid": 6,
+      "qq_seq": 6,
+      "qq_detail": "First round control is ?",
+      "qq_ans": [
+        "Ace or Void",
+        "Ace or King",
+        "Ace"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 294,
+      "qq_sbid": 6,
+      "qq_seq": 7,
+      "qq_detail": "Second round control is ?",
+      "qq_ans": [
+        "King or Singleton",
+        "King",
+        "Singleton",
+        "Ace and King"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 295,
+      "qq_sbid": 6,
+      "qq_seq": 8,
+      "qq_detail": "What is 3S ?",
+      "qq_ans": [
+        "Cue Raise agreeing Hearts, Control in Spades",
+        "Asking for a stop in Spades",
+        "Cue Raise agreeing Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2S",
+          "3S",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 296,
+      "qq_sbid": 6,
+      "qq_seq": 9,
+      "qq_detail": "You have Ace of diamonds and King of Clubs, what do you bid ? ",
+      "qq_ans": [
+        "4C Control in clubs",
+        "4D showing a control in diamonds",
+        "4D showing Ace of diamonds"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2S",
+          "3S",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 297,
+      "qq_sbid": 6,
+      "qq_seq": 10,
+      "qq_detail": "What does 4C mean ?",
+      "qq_ans": [
+        "1st or 2nd round control in Clubs",
+        "Gerber",
+        "Waiting bid"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3D",
+          "PASS"
+        ],
+        [
+          "3S",
+          "PASS",
+          "4C",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 298,
+      "qq_sbid": 6,
+      "qq_seq": 11,
+      "qq_detail": "What does 4D mean ?",
+      "qq_ans": [
+        "1st or 2nd round control in Diamonds, NO control in Clubs",
+        "1st or 2nd round control in Diamonds",
+        "Ace of Diamonds",
+        "Natural diamond suit"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3D",
+          "PASS"
+        ],
+        [
+          "3S",
+          "PASS",
+          "4D",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 299,
+      "qq_sbid": 6,
+      "qq_seq": 12,
+      "qq_detail": "What does 4H mean ?",
+      "qq_ans": [
+        "Sign off, not interested in Slam",
+        "Waiting bid",
+        "Asking partner to bid Roman Keycard",
+        "Pass/Correct Hearts or Spades"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3D",
+          "PASS"
+        ],
+        [
+          "3S",
+          "PASS",
+          "4C",
+          "PASS"
+        ],
+        [
+          "4H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 300,
+      "qq_sbid": 6,
+      "qq_seq": 13,
+      "qq_detail": "3D (bergen).  What does 4C mean ?",
+      "qq_ans": [
+        "1st or 2nd round control in Clubs, NO control in Spades",
+        "Splinter in Clubs",
+        "1st or 2nd round control in Clubs",
+        "Gerber"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3D",
+          "PASS"
+        ],
+        [
+          "4C",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 301,
+      "qq_sbid": 6,
+      "qq_seq": 14,
+      "qq_detail": "What is 4C ?",
+      "qq_ans": [
+        "Agreeing hearts.  Control in Clubs, NO control in Spades",
+        "Agreeing hearts.  Control in Clubs.",
+        "Gerber",
+        "Splinter in Clubs"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2S",
+          "4C",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 302,
+      "qq_sbid": 6,
+      "qq_seq": 15,
+      "qq_detail": "3NT(3card heart and 12-15 hcp).  What is your bid ?",
+      "qq_ans": [
+        "4C Control in clubs.",
+        "4C Control in clubs AND Spades",
+        "4NT RKC"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3NT",
+          "PASS"
+        ]
+      ],
+      "qq_north": [
+        "A4",
+        "AKQ94",
+        "Q63",
+        "K86"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 303,
+      "qq_sbid": 6,
+      "qq_seq": 16,
+      "qq_detail": "3C(stayman).  What is 3S ?",
+      "qq_ans": [
+        "Interest in a Heart Slam, start of Cue Bidding",
+        "5+ Spades",
+        "Ask for a Spade stop"
+      ],
+      "qq_rounds": [
+        [
+          "2C",
+          "PASS",
+          "2D",
+          "PASSs"
+        ],
+        [
+          "2NT",
+          "PASS",
+          "3C",
+          "PASS"
+        ],
+        [
+          "3H",
+          "PASS",
+          "3S",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 304,
+      "qq_sbid": 6,
+      "qq_seq": 17,
+      "qq_detail": "What does 4D show ?",
+      "qq_ans": [
+        "Control in Diamonds but NOT in clubs",
+        "Controls in Diamonds AND Clubs"
+      ],
+      "qq_rounds": [
+        [
+          "2C",
+          "PASS",
+          "2D",
+          "PASS"
+        ],
+        [
+          "2S",
+          "PASS",
+          "3S",
+          "PASS"
+        ],
+        [
+          "4D",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 305,
+      "qq_sbid": 11,
+      "qq_seq": 1,
+      "qq_detail": "What does this cue bid mean ?",
+      "qq_ans": [
+        "5/5 Spades and a Minor",
+        "Has Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2H",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": ""
+    },
+    {
+      "qq_qqid": 306,
+      "qq_sbid": 11,
+      "qq_seq": 2,
+      "qq_detail": "What does this cue bid mean ?",
+      "qq_ans": [
+        "5/5 Clubs and Diamonds",
+        "18+ stops in hearts",
+        "5/5 Spades and a minor"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2NT",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 307,
+      "qq_sbid": 11,
+      "qq_seq": 3,
+      "qq_detail": "Is this Michaels ?",
+      "qq_ans": [
+        "No",
+        "Yes"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "1S",
+          "PASS",
+          "2C"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 308,
+      "qq_sbid": 11,
+      "qq_seq": 4,
+      "qq_detail": "2D multi.  Is this Michaels ?",
+      "qq_ans": [
+        "No",
+        "Yes"
+      ],
+      "qq_rounds": [
+        [
+          "2D",
+          "3D",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 309,
+      "qq_sbid": 11,
+      "qq_seq": 5,
+      "qq_detail": "Strong artificial club.  Is this Michaels ?",
+      "qq_ans": [
+        "No",
+        "Yes"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "2C",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 310,
+      "qq_sbid": 11,
+      "qq_seq": 6,
+      "qq_detail": "1C shows 2+.  Is this Michaels ?",
+      "qq_ans": [
+        "Yes",
+        "No"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "2C",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 311,
+      "qq_sbid": 11,
+      "qq_seq": 7,
+      "qq_detail": "Is this Michaels ?",
+      "qq_ans": [
+        "Yes",
+        "No"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1H",
+          "2H"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 312,
+      "qq_sbid": 11,
+      "qq_seq": 8,
+      "qq_detail": "Where opponents have the points Michaels is a good disruptor ?",
+      "qq_ans": [
+        "No",
+        "Yes"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 313,
+      "qq_sbid": 11,
+      "qq_seq": 9,
+      "qq_detail": "Michaels is good at all vulnerabilities as a disruptor of opponents ?",
+      "qq_ans": [
+        "No",
+        "Yes"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 314,
+      "qq_sbid": 11,
+      "qq_seq": 10,
+      "qq_detail": "Vulnerability counts on whether to bid Michaels",
+      "qq_ans": [
+        "Yes",
+        "No"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 315,
+      "qq_sbid": 11,
+      "qq_seq": 11,
+      "qq_detail": "What hand features influence whether to bid Michaels",
+      "qq_ans": [
+        "Vulnerability, Minimum level of partner response, Point count, Partnership agreement",
+        "Vulnerability",
+        "Point Count"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 316,
+      "qq_sbid": 11,
+      "qq_seq": 12,
+      "qq_detail": "Favourable vulnerability we can be very weak ?",
+      "qq_ans": [
+        "Yes",
+        "No"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "2D",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 317,
+      "qq_sbid": 11,
+      "qq_seq": 13,
+      "qq_detail": "What does 3C show ?",
+      "qq_ans": [
+        "Pass or correct",
+        "Long clubs to play",
+        "Mini Gerber"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "2S",
+          "PASS",
+          "3C"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 318,
+      "qq_sbid": 11,
+      "qq_seq": 14,
+      "qq_detail": "What does 2NT mean ?",
+      "qq_ans": [
+        "Asking for the Michaels Minor",
+        "To play",
+        "Invite to 3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "2S",
+          "PASS",
+          "2NT"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 319,
+      "qq_sbid": 11,
+      "qq_seq": 15,
+      "qq_detail": "What does this mean ?",
+      "qq_ans": [
+        "Partnership agreement",
+        "Diamonds",
+        "Clubs"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "2S",
+          "PASS",
+          "3D"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 320,
+      "qq_sbid": 11,
+      "qq_seq": 16,
+      "qq_detail": "What does this show ?",
+      "qq_ans": [
+        "Hearts and Clubs 5/5",
+        "Majors",
+        "18+ stops in diamonds"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "2NT",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 321,
+      "qq_sbid": 11,
+      "qq_seq": 17,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "Pass",
+        "2NT",
+        "2S"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "2C",
+          "PASS",
+          "2H"
+        ]
+      ],
+      "qq_north": [
+        "KT764",
+        "AJ742",
+        "Q2",
+        "3"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 322,
+      "qq_sbid": 11,
+      "qq_seq": 18,
+      "qq_detail": "What does 2NT mean ?",
+      "qq_ans": [
+        "Asks for partners minor",
+        "To play",
+        "Looking for 3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2H",
+          "PASS",
+          "2NT"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 323,
+      "qq_sbid": 11,
+      "qq_seq": 19,
+      "qq_detail": "What does 3NT mean ?",
+      "qq_ans": [
+        "To play",
+        "Ask for partners minor"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2H",
+          "3H",
+          "3NT"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 324,
+      "qq_sbid": 11,
+      "qq_seq": 20,
+      "qq_detail": "What does 4C mean ?",
+      "qq_ans": [
+        "Pass or correct",
+        "Gerber",
+        "Confirm Clubs"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2H",
+          "3H",
+          "4C"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 325,
+      "qq_sbid": 11,
+      "qq_seq": 21,
+      "qq_detail": "What does 4NT mean ?",
+      "qq_ans": [
+        "Bid 5 of your minor",
+        "Blackwood in Spades",
+        "Quantitive 4NT"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2H",
+          "3H",
+          "4NT"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 326,
+      "qq_sbid": 11,
+      "qq_seq": 22,
+      "qq_detail": "What does 3S mean ?",
+      "qq_ans": [
+        "Pre-emptive in spades",
+        "Invitational in Spades",
+        "Bid your minor"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "2H",
+          "PASS",
+          "3S"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 327,
+      "qq_sbid": 11,
+      "qq_seq": 23,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "4H",
+        "3NT",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "2S",
+          "PASS",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": [
+        "A975",
+        "QT74",
+        "6",
+        "KT74"
+      ],
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 328,
+      "qq_sbid": 11,
+      "qq_seq": 24,
+      "qq_detail": "What do you bid with a minimum ?",
+      "qq_ans": [
+        "3H",
+        "3S",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "2D",
+          "PASS",
+          "3D"
+        ],
+        [
+          "PASS",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 329,
+      "qq_sbid": 11,
+      "qq_seq": 25,
+      "qq_detail": "What do you bid with a maximum ?",
+      "qq_ans": [
+        "3S",
+        "3H",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "2D",
+          "PASS",
+          "3D"
+        ],
+        [
+          "PASS",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 278,
+      "qq_sbid": 15,
+      "qq_seq": 1,
+      "qq_detail": "What is 4NT ?",
+      "qq_ans": [
+        "Quantitative 4NT",
+        "Ace Ask",
+        "Pre-emptive",
+        "7NT ask"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "4NT",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": ""
+    },
+    {
+      "qq_qqid": 279,
+      "qq_sbid": 15,
+      "qq_seq": 2,
+      "qq_detail": "What is 4NT ?",
+      "qq_ans": [
+        "Quantitative 4NT",
+        "Ace Ask",
+        "Pre-emptive",
+        "7NT ask"
+      ],
+      "qq_rounds": [
+        [
+          "2NT",
+          "PASS",
+          "4NT",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 280,
+      "qq_sbid": 15,
+      "qq_seq": 3,
+      "qq_detail": "What is 4NT ?",
+      "qq_ans": [
+        "Quantitative 4NT",
+        "Roman Key Card, agreeing Spades"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2S",
+          "PASS",
+          "4NT",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 281,
+      "qq_sbid": 15,
+      "qq_seq": 4,
+      "qq_detail": "What is 3H ?",
+      "qq_ans": [
+        "Agreeing Spades, looking at Slam",
+        "Self agreeing hearts as trumps",
+        "Looking for NT, asking for a heart stopper"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2S",
+          "PASS",
+          "3H",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 282,
+      "qq_sbid": 15,
+      "qq_seq": 5,
+      "qq_detail": "What is 3S ?",
+      "qq_ans": [
+        "Agreeing Hearts looking at Slam",
+        "Self agreeing Spades as trumps",
+        "Looking for NT, asking for a Spade stopper"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2H",
+          "PASS",
+          "3S",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 283,
+      "qq_sbid": 15,
+      "qq_seq": 6,
+      "qq_detail": "What is 4NT ?",
+      "qq_ans": [
+        "Quantitative 4NT",
+        "Roman Key Card, agreeing Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2H",
+          "PASS",
+          "4NT",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 284,
+      "qq_sbid": 15,
+      "qq_seq": 7,
+      "qq_detail": "What is 4NT ?",
+      "qq_ans": [
+        "Quantitative 4NT",
+        "Roman Key Card, agreeing Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "2D",
+          "PASS"
+        ],
+        [
+          "2H",
+          "PASS",
+          "4NT",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 285,
+      "qq_sbid": 15,
+      "qq_seq": 8,
+      "qq_detail": "What is 4NT ?",
+      "qq_ans": [
+        "Quantitative 4NT",
+        "Roman Key Card, agreeing Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "2H",
+          "PASS"
+        ],
+        [
+          "4NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 286,
+      "qq_sbid": 15,
+      "qq_seq": 9,
+      "qq_detail": "What is 2S ?",
+      "qq_ans": [
+        "Agreeing Hearts",
+        "Asking for stop in Spades",
+        "Psyche"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "2H",
+          "PASS"
+        ],
+        [
+          "2S",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 287,
+      "qq_sbid": 15,
+      "qq_seq": 10,
+      "qq_detail": "What is 4NT ?",
+      "qq_ans": [
+        "Roman Key Card, agreeing Hearts",
+        "Quantitative 4NT"
+      ],
+      "qq_rounds": [
+        [
+          "4H",
+          "4S",
+          "PASS",
+          "4NT"
+        ],
+        [
+          "PASS",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 126,
+      "qq_sbid": 16,
+      "qq_seq": 1,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "VALUES Responder Redouble.  10+ HCP, subsequent doubles are penalty",
+        "SUPPORT Double, 3 card fit, 6 + HCP",
+        "RESCUE re-double (SOS)"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "X",
+          "XX",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": ""
+    },
+    {
+      "qq_qqid": 127,
+      "qq_sbid": 16,
+      "qq_seq": 2,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "VALUES Responder Redouble.  10+ HCP, subsequent doubles are penalty",
+        "SNAPDRAGON re-double",
+        "RESCUE re-double (SOS)"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "X",
+          "XX",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 128,
+      "qq_sbid": 16,
+      "qq_seq": 3,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "SUPPORT re-double.  3 card support of partners suit, after partner's 1 of a major",
+        "GAME FORCE re-double",
+        "TAKE-OUT re-double"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1H",
+          "X"
+        ],
+        [
+          "XX",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 129,
+      "qq_sbid": 16,
+      "qq_seq": 4,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "VALUES redouble from opener",
+        "SUPPORT re-double.  3 card support of partners suit, 1 of a major",
+        "RESCUE re-double (SOS)"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "1S",
+          "2H",
+          "X"
+        ],
+        [
+          "XX",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 130,
+      "qq_sbid": 16,
+      "qq_seq": 5,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "RESCUE re-double (SOS)",
+        "SUPPORT Double, 3 card fit, 6 + HCP",
+        "SUPPORT 4 card fit for clubs"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "PASS",
+          "X"
+        ],
+        [
+          "PASS",
+          "PASS",
+          "XX",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 131,
+      "qq_sbid": 16,
+      "qq_seq": 6,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "Bid lowest 4 card suit, try to escape 1NT XX",
+        "HELVIC Wriggle",
+        "PENALTY double"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "PASS",
+          "X"
+        ],
+        [
+          "PASS",
+          "PASS",
+          "XX",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 132,
+      "qq_sbid": 16,
+      "qq_seq": 7,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "PENALTY, To play, subsequent doubles penalty",
+        "SLAM INVITATION, responder has a big hand",
+        "TAKE-OUT responder wants you to bid your best suit"
+      ],
+      "qq_rounds": [
+        [
+          "4S",
+          "X",
+          "XX",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 133,
+      "qq_sbid": 16,
+      "qq_seq": 8,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "PENALTY, To play, subsequent doubles penalty",
+        "TAKE OUT, responder is looking for 3NT",
+        "TAKE-OUT responder wants you to bid your best suit"
+      ],
+      "qq_rounds": [
+        [
+          "2S",
+          "X",
+          "XX",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 134,
+      "qq_sbid": 16,
+      "qq_seq": 9,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "PENALTY, To play, subsequent doubles penalty",
+        "TAKE OUT, responder is looking for 3NT",
+        "TAKE-OUT responder wants you to bid your best suit"
+      ],
+      "qq_rounds": [
+        [
+          "2S",
+          "X",
+          "2NT",
+          "3H"
+        ],
+        [
+          "PASS",
+          "PASS",
+          "X",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 135,
+      "qq_sbid": 16,
+      "qq_seq": 10,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "PENALTY, To play, subsequent doubles penalty",
+        "TAKE OUT, opener has no stops in clubs",
+        "Opener has extra spade length but is weak"
+      ],
+      "qq_rounds": [
+        [
+          "2S",
+          "X",
+          "XX",
+          "3C"
+        ],
+        [
+          "X",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 136,
+      "qq_sbid": 16,
+      "qq_seq": 11,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "CAN'T PENALTY.  Opener has no defensive tricks.",
+        "TRAP PASS - Opener is waiting for responder to double",
+        "Opener likes clubs and wishes to defend"
+      ],
+      "qq_rounds": [
+        [
+          "2S",
+          "X",
+          "XX",
+          "3C"
+        ],
+        [
+          "PASS",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 137,
+      "qq_sbid": 16,
+      "qq_seq": 12,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "PENALTY.  Responder has values to defeat contract",
+        "TAKE OUT.  Responder is two suited in the minors",
+        "STOPPER ASK - Responder is looking to play in 3NT"
+      ],
+      "qq_rounds": [
+        [
+          "2S",
+          "X",
+          "XX",
+          "3H"
+        ],
+        [
+          "PASS",
+          "PASS",
+          "X",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 138,
+      "qq_sbid": 16,
+      "qq_seq": 13,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "TO PLAY in 2C",
+        "I have BOTH majors, you choose, game force",
+        "I have NEITHER major, you choose what to do.  I will pass your response."
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "X"
+        ],
+        [
+          "XX",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 139,
+      "qq_sbid": 16,
+      "qq_seq": 14,
+      "qq_detail": "We are looking to bid 3NT with a cue bid of their suit at the 3 level as a stopper ask.  They double and we redouble.  For 3X  X  XX.  What does this bidding sequence mean ?",
+      "qq_ans": [
+        "I have a partial stopper",
+        "I have 1 stopper",
+        "I have 2 stoppers"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 140,
+      "qq_sbid": 16,
+      "qq_seq": 15,
+      "qq_detail": "We are looking to bid 3NT with a cue bid of their suit at the 3 level as a stopper ask.  They double and we bid 3NT.  What does this bidding sequence mean ?",
+      "qq_ans": [
+        "I have a 1+ stoppers",
+        "I have exactly 1 stopper",
+        "I have exactly 2 stoppers"
+      ],
+      "qq_rounds": null,
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 141,
+      "qq_sbid": 16,
+      "qq_seq": 16,
+      "qq_detail": "What does this bidding sequence mean ?",
+      "qq_ans": [
+        "First round control in Spades, Ace/Void in bid suit",
+        "King of Spades",
+        "Asking for a stopper to get to 3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "3D",
+          "PASS"
+        ],
+        [
+          "3S",
+          "X",
+          "PASS",
+          "PASS"
+        ],
+        [
+          "XX",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 220,
+      "qq_sbid": 17,
+      "qq_seq": 1,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2D two way checkback",
+        "2C two way checkback",
+        "2H showing 5S and 4+H",
+        "2NT invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "87652",
+        "AT54",
+        "A3",
+        "AJ"
+      ],
+      "qq_west": null,
+      "qq_help": ""
+    },
+    {
+      "qq_qqid": 221,
+      "qq_sbid": 17,
+      "qq_seq": 2,
+      "qq_detail": "What does their 2D bid mean ?",
+      "qq_ans": [
+        "Game forcing checkback",
+        "Signoff in Diamonds",
+        "Transfer to Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2D",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": [
+        "Q7",
+        "AQ96",
+        "982",
+        "AQ63"
+      ],
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 222,
+      "qq_sbid": 17,
+      "qq_seq": 3,
+      "qq_detail": "What do you bid ?",
+      "qq_ans": [
+        "2H showing 4 hearts",
+        "Pass ",
+        "2H accepting transfer"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2D",
+          "PASS"
+        ]
+      ],
+      "qq_north": [
+        "Q7",
+        "AQ96",
+        "982",
+        "AQ63"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 223,
+      "qq_sbid": 17,
+      "qq_seq": 4,
+      "qq_detail": "What is partners bid of 3D ?",
+      "qq_ans": [
+        "Invitational in Diamonds",
+        "transfer to hearts",
+        "sign off in diamonds"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2D",
+          "PASS"
+        ],
+        [
+          "2H",
+          "PASS",
+          "3D",
+          "PASS"
+        ]
+      ],
+      "qq_north": [
+        "Q7",
+        "AQ96",
+        "982",
+        "AQ63"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 224,
+      "qq_sbid": 17,
+      "qq_seq": 5,
+      "qq_detail": "What do you bid ?",
+      "qq_ans": [
+        "2S showing 5 spades",
+        "2NT",
+        "3C showing 4+ clubs",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2D",
+          "PASS"
+        ],
+        [
+          "2H",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "JT852",
+        "K4",
+        "Kt",
+        "AQ86"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 225,
+      "qq_sbid": 17,
+      "qq_seq": 6,
+      "qq_detail": "What do you bid ?",
+      "qq_ans": [
+        "4S",
+        "2D checkback game force",
+        "2C checkback invitational",
+        "3S invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A87632",
+        "J3",
+        "KQ",
+        "AT9"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 226,
+      "qq_sbid": 17,
+      "qq_seq": 7,
+      "qq_detail": "What does your partners bid mean ?",
+      "qq_ans": [
+        "5S & 4+ diamonds",
+        "2 way game force checkback"
+      ],
+      "qq_rounds": [
+        [
+          "1S",
+          "PASS",
+          "1NT",
+          "PASS"
+        ],
+        [
+          "2D",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "KJ",
+        "T87",
+        "Q87",
+        "QT973"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 227,
+      "qq_sbid": 17,
+      "qq_seq": 8,
+      "qq_detail": "What do we bid ?",
+      "qq_ans": [
+        "2S showing 3 spades",
+        "2H showing 5 hearts",
+        "3S game invite",
+        "4S accept invite"
+      ],
+      "qq_rounds": [
+        [
+          "1H",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2D",
+          "PASS"
+        ]
+      ],
+      "qq_north": [
+        "Q43",
+        "AK983",
+        "A8",
+        "942"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 228,
+      "qq_sbid": 17,
+      "qq_seq": 9,
+      "qq_detail": "What do you bid ?",
+      "qq_ans": [
+        "2D game force checkback",
+        "2H showing 4+ hearts",
+        "4H asking partner to choose Hearts or Spades",
+        "3H game force showing 5 Spades and 4 Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A7543",
+        "A752",
+        "AJ",
+        "QT"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 229,
+      "qq_sbid": 17,
+      "qq_seq": 10,
+      "qq_detail": "How do you invite in hearts ?",
+      "qq_ans": [
+        "2C invitational checkback",
+        "2D checkback",
+        "3H invitational",
+        "2H Invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1H",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A4",
+        "KT7632",
+        "641",
+        "Q8"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 230,
+      "qq_sbid": 17,
+      "qq_seq": 11,
+      "qq_detail": "What is your bid with 4 clubs ?",
+      "qq_ans": [
+        "2D relay",
+        "Pass, partner has your clubs",
+        "3C partner has 5 clubs"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1H",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 231,
+      "qq_sbid": 17,
+      "qq_seq": 12,
+      "qq_detail": "How do you invite in hearts ?",
+      "qq_ans": [
+        "2H invitational",
+        "3H invitational",
+        "2NT Invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1H",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2D",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A4",
+        "KT7632",
+        "641",
+        "Q8"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 232,
+      "qq_sbid": 17,
+      "qq_seq": 13,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2D relay",
+        "Pass, agree clubs",
+        "2H show hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ]
+      ],
+      "qq_north": [
+        "JT7",
+        "AQJT",
+        "J74",
+        "KJT"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 233,
+      "qq_sbid": 17,
+      "qq_seq": 14,
+      "qq_detail": "What does 2S mean ?",
+      "qq_ans": [
+        "Invitational with 5+ Spades",
+        "Sign-off in 2S",
+        "4 Spades and 4 Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2D",
+          "PASS",
+          "2S",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "JT7",
+        "AQJT",
+        "J74",
+        "KJT"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 234,
+      "qq_sbid": 17,
+      "qq_seq": 15,
+      "qq_detail": "How do you invite in hearts ?",
+      "qq_ans": [
+        "2C invitational checkback",
+        "2H show 5 hearts",
+        "3H Invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1H",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A9",
+        "98542",
+        "AKT3",
+        "T8"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 235,
+      "qq_sbid": 17,
+      "qq_seq": 16,
+      "qq_detail": "What is partner's hand ?",
+      "qq_ans": [
+        "5 Spades and 4 Hearts invitational",
+        "5 Spades and 5 Hearts invitational",
+        "5 Spades and 4 Hearts, 2 level stop"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2D",
+          "PASS",
+          "2H",
+          "PASS"
+        ]
+      ],
+      "qq_north": [
+        "T96",
+        "AJ76",
+        "42",
+        "AKT5"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 236,
+      "qq_sbid": 17,
+      "qq_seq": 17,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "4H with a double fit Spades/Hearts",
+        "4S with a double fir Spades and Hearts",
+        "3H invitational",
+        "3S Invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2C",
+          "PASS"
+        ],
+        [
+          "2D",
+          "PASS",
+          "2H",
+          "PASS"
+        ]
+      ],
+      "qq_north": [
+        "T96",
+        "AJ76",
+        "42",
+        "AKT5"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 237,
+      "qq_sbid": 17,
+      "qq_seq": 18,
+      "qq_detail": "What is your bid to stop in 2H",
+      "qq_ans": [
+        "2H",
+        "2C and partner will bid 2D and we will bid 2H",
+        "2D transfer to Hearts"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1H",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "K98",
+        "A7432",
+        "T86",
+        "J5"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 238,
+      "qq_sbid": 17,
+      "qq_seq": 19,
+      "qq_detail": "How do you stop in 2D ?",
+      "qq_ans": [
+        "2C transfer to 2D",
+        "2D partner will pass"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1H",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "KJ6",
+        "AJ52",
+        "T8752",
+        "7"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 239,
+      "qq_sbid": 17,
+      "qq_seq": 20,
+      "qq_detail": "You hold 3 spades and 14HCP and open.What is next your bid ?",
+      "qq_ans": [
+        "Pass",
+        "3S Invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2S",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 240,
+      "qq_sbid": 17,
+      "qq_seq": 21,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2C transfer to 2D",
+        "2D signoff",
+        "pass"
+      ],
+      "qq_rounds": [
+        [
+          "1D",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "T753",
+        "73",
+        "AT98",
+        "QJ8"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 241,
+      "qq_sbid": 17,
+      "qq_seq": 22,
+      "qq_detail": "What is partner's hand ?",
+      "qq_ans": [
+        "5 Spades and 4 Hearts weak",
+        "5 Spades and 4 Hearts invitational",
+        "5/5 Spades and hearts invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "2H",
+          "PASS"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 242,
+      "qq_sbid": 17,
+      "qq_seq": 23,
+      "qq_detail": "What is your bid ?",
+      "qq_ans": [
+        "2C relay to diamonds",
+        "2D signoff",
+        "2NT Invitational"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1S",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "K985",
+        "65",
+        "QT865",
+        "Q6"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 243,
+      "qq_sbid": 17,
+      "qq_seq": 24,
+      "qq_detail": "You have 15HCP with 5 card diamonds and 4 Spades.  What bid do you make ?",
+      "qq_ans": [
+        "2S responders reverse, forcing",
+        "2D checkback, game force",
+        "3S game force"
+      ],
+      "qq_rounds": [
+        [
+          "1C",
+          "PASS",
+          "1D",
+          "PASS"
+        ],
+        [
+          "1NT",
+          "PASS",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 336,
+      "qq_sbid": 1006,
+      "qq_seq": 1,
+      "qq_detail": "What do you bid without interference to your partners 1NT opening ?",
+      "qq_ans": [
+        "Transfer to diamonds using your agreed convention",
+        "2NT Lebensohl",
+        "3D",
+        "Pass"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "65",
+        "843",
+        "QJT8654",
+        "7"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 337,
+      "qq_sbid": 1006,
+      "qq_seq": 2,
+      "qq_detail": "What do you bid with 2H interference to your partners 1NT opening ?",
+      "qq_ans": [
+        "2NT",
+        "Pass",
+        "3D"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "65",
+        "843",
+        "QJT8654",
+        "7"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 339,
+      "qq_sbid": 1006,
+      "qq_seq": 4,
+      "qq_detail": "What do you bid with 2H interference to your partners 1NT opening ?",
+      "qq_ans": [
+        "3D",
+        "Transfer to diamonds",
+        "3NT",
+        "2NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "KQ",
+        "97",
+        "AQJT96",
+        "Q98"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 340,
+      "qq_sbid": 1006,
+      "qq_seq": 5,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "3C",
+        "Pass",
+        "3NT",
+        "3S"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "?",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "AQJ4",
+        "KJ7",
+        "KQ86",
+        "97"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 341,
+      "qq_sbid": 1006,
+      "qq_seq": 6,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "3D",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "3C",
+          "PASS",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "65",
+        "843",
+        "QJT8654",
+        "7"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 342,
+      "qq_sbid": 1006,
+      "qq_seq": 7,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "2H",
+        "2NT Lebensohl",
+        "3H",
+        "Pass"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2D",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "73",
+        "AJT84",
+        "75",
+        "9753"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 343,
+      "qq_sbid": 1006,
+      "qq_seq": 8,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "2NT",
+        "2H",
+        "3H",
+        "Pass"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2D",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A7",
+        "KJT94",
+        "T963",
+        "42"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 344,
+      "qq_sbid": 1006,
+      "qq_seq": 9,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "2D",
+        "2H",
+        "3H",
+        "2NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "PASS",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A7",
+        "KJT94",
+        "T963",
+        "42"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 345,
+      "qq_sbid": 1006,
+      "qq_seq": 10,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "3H",
+        "2NT Lebensohl",
+        "2H",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2D",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A4",
+        "AQJ85",
+        "64",
+        "8654"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 346,
+      "qq_sbid": 1006,
+      "qq_seq": 11,
+      "qq_detail": "After the following bidding, what does 3D by you mean ?",
+      "qq_ans": [
+        "Cue bid stayman",
+        "Has a diamond stopper",
+        "Ask for a diamond stopper"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2D",
+          "3D",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_east": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_south": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_west": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 349,
+      "qq_sbid": 1006,
+      "qq_seq": 14,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "2NT",
+        "2S",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "AQJ8",
+        "A98",
+        "642",
+        "Q42"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 350,
+      "qq_sbid": 1006,
+      "qq_seq": 15,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "3C",
+        "Pass",
+        "3S",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "?",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "KT96",
+        "73",
+        "AKT8",
+        "AJT"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 353,
+      "qq_sbid": 1006,
+      "qq_seq": 18,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "3S",
+        "Pass",
+        "2NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2S",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "98",
+        "AJ95",
+        "T98",
+        "KQ75"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 355,
+      "qq_sbid": 1006,
+      "qq_seq": 20,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "2NT",
+        "3D",
+        "2H",
+        "3NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2D",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A5",
+        "Q962",
+        "KJ9",
+        "J973"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 359,
+      "qq_sbid": 1006,
+      "qq_seq": 24,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "3H",
+        "2S",
+        "3S"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_east": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_south": [
+        "KJ95",
+        "87",
+        "742",
+        "AQ98"
+      ],
+      "qq_west": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 363,
+      "qq_sbid": 1006,
+      "qq_seq": 28,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "2NT",
+        "Double",
+        "Pass"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "KQ7",
+        "K86",
+        "AJ87",
+        "T43"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 364,
+      "qq_sbid": 1006,
+      "qq_seq": 29,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "3NT",
+        "4C",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "2NT",
+          "PASS"
+        ],
+        [
+          "3C",
+          "PASS",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "KQ7",
+        "K86",
+        "AJ87",
+        "T43"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 366,
+      "qq_sbid": 1006,
+      "qq_seq": 31,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "4D",
+        "Pass"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2H",
+          "3NT",
+          "PASS"
+        ],
+        [
+          "?",
+          "N",
+          "N",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "AQ",
+        "J52",
+        "K9865",
+        "AK8"
+      ],
+      "qq_east": null,
+      "qq_south": null,
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 367,
+      "qq_sbid": 1006,
+      "qq_seq": 32,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "Double",
+        "2NT"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2S",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "A8",
+        "QT86",
+        "QT76",
+        "985"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 369,
+      "qq_sbid": 1006,
+      "qq_seq": 34,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "Double",
+        "3C Stayman",
+        "3H",
+        "3D"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2D",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "QJ52",
+        "K984",
+        "Q",
+        "JT52"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 370,
+      "qq_sbid": 1006,
+      "qq_seq": 35,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "Double",
+        "Pass",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2S",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "4",
+        "K943",
+        "A9653",
+        "J43"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 371,
+      "qq_sbid": 1006,
+      "qq_seq": 36,
+      "qq_detail": "After the following bidding, what is your bid ?",
+      "qq_ans": [
+        "4H",
+        "Pass",
+        "3S"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2S",
+          "X",
+          "PASS"
+        ],
+        [
+          "3H",
+          "PASS",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": null,
+      "qq_east": null,
+      "qq_south": [
+        "4",
+        "K943",
+        "A9653",
+        "J43"
+      ],
+      "qq_west": null,
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 1040,
+      "qq_sbid": 1006,
+      "qq_seq": 37,
+      "qq_detail": "What is your bid?",
+      "qq_ans": [
+        "3NT",
+        "Pass",
+        "Double",
+        "3D"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2S",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "643",
+        "AQJ",
+        "AJT7",
+        "T76"
+      ],
+      "qq_east": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_south": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_west": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 1041,
+      "qq_sbid": 1006,
+      "qq_seq": 38,
+      "qq_detail": "What is your bid?",
+      "qq_ans": [
+        "Double",
+        "2NT",
+        "3H"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2S",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_east": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_south": [
+        "A8",
+        "QT86",
+        "QT76",
+        "985"
+      ],
+      "qq_west": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_help": null
+    },
+    {
+      "qq_qqid": 1042,
+      "qq_sbid": 1006,
+      "qq_seq": 39,
+      "qq_detail": "What is your bid?",
+      "qq_ans": [
+        "Double",
+        "Pass"
+      ],
+      "qq_rounds": [
+        [
+          "1NT",
+          "2S",
+          "?",
+          "N"
+        ]
+      ],
+      "qq_north": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_east": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_south": [
+        "75",
+        "AQT9",
+        "8765",
+        "Q76"
+      ],
+      "qq_west": [
+        "n",
+        "n",
+        "n",
+        "n"
+      ],
+      "qq_help": null
+    }
+  ]
+}
