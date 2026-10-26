@@ -88,6 +88,26 @@ Quiz app MVP — Expo app (copied from bridgeschool-native) running quizzes from
       `src/app/quiz/[sb_sbid].tsx` (question → feedback → summary, all in memory)
 - [x] 9. Type-check and lint — tsc passes; lint skipped (no ESLint config in this project or in
       bridgeschool-native; `expo lint` would install ESLint packages)
+- [x] 11. (User request 2026-10-25) Remove the `build:android:dev` script — the development build
+      is not needed
+- [ ] 13. (User testing 2026-10-25) Lebensohl must be split into its 5 parts, as in the video
+      app. **Agreed design: one quiz per video (`qq_rfid`) instead of per subject** — the list is
+      the video app's 11 entries, named `rf_desc`, ordered by `RFID_ORDER` = 1, 2, 22, 3, 19, 21,
+      14, 15, 16, 17, 18; questions within a quiz in file (`qq_seq`) order, capped at 50.
+  - [x] 13a. JSON contract v2 instruction for next-bridgeschool: add `references` (rf_rfid,
+        rf_sbid, rf_desc) and `qq_rfid` on each question (handed to the user in chat)
+  - [x] 13b. types.ts: `table_Reference`, `qq_rfid`, `QuizData.references`
+  - [x] 13c. constants.ts: `RFID_ORDER` replaces `SBID_ORDER`
+  - [x] 13d. quizData.ts: list/find/questions by `rf_rfid`
+  - [x] 13e. List row shows a reference (`ReferenceRow` replaces `SubjectRow` — named after its
+        DD source); Subjects screen, `_layout`, quiz route `quiz/[rf_rfid]`, QuizSummary title
+        use `rf_desc`
+  - [x] 13f. User: run the rf_rfid 21 spelling fix, re-export from `/owner`; Claude copies the
+        new quiz.json in and type-checks; bump app.json to 1.0.1
+  - [ ] 13g. User: commit + push, then run the v1.0.1 release
+- [ ] 12. (User request 2026-10-25, after testing — not now) Remove the remaining dev-build
+      redundancy: uninstall `expo-dev-client` (needs approved npm uninstall) and remove the eas.json
+      `development` profile
 - [ ] 10. User setup steps (not done by Claude), in order: install (step 2) → git init + public
       GitHub repo richardstuart007/bridgequiz-native → eas init (new Expo project, writes
       projectId) → commit + push → npm run release:android (first release, v1.0.0) → richard-
@@ -97,6 +117,11 @@ Quiz app MVP — Expo app (copied from bridgeschool-native) running quizzes from
 ### Copied unchanged from bridgeschool-native
 - eas.json, tsconfig.json, .gitignore, AGENTS.md, .vscode/, assets/ (icons still Expo's
   placeholder, as in bridgeschool-native), src/appVersion.ts
+
+### Release
+- v1.0.0 published 2026-10-25 (EAS build 5c14c7b5…, versionCode 2, keystore generated in the
+  cloud); GitHub release v1.0.0 with AndroidBridgequiz.apk (90.8 MB); fixed latest-download link
+  answers HTTP 200
 
 ### app.json
 - `eas init --non-interactive --force` created Expo project
@@ -109,6 +134,8 @@ Quiz app MVP — Expo app (copied from bridgeschool-native) running quizzes from
 ### package.json, package-lock.json
 - name bridgequiz-native 1.0.0; the Keep dependency list at bridgeschool-native's versions;
   same scripts. Clean `npm install --legacy-peer-deps` → fresh package-lock.json (expo 58.0.19)
+- Removed the `build:android:dev` script (step 11) — development build not needed; the user
+  runs builds themselves
 - Incident: a first install attempt ran in bridgeschool-native (PowerShell cwd left there by an
   earlier read) and regenerated its lock file; the user restored it with git checkout + npm ci.
   Rule saved to memory: writing/installing commands use absolute paths
@@ -160,6 +187,26 @@ Quiz app MVP — Expo app (copied from bridgeschool-native) running quizzes from
   only, Try again reshuffles
 - Quiz scroll ref typed as `ScrollViewInstance` (RN 0.88 type) — fixes tsc errors
 
+### Step 13 — one quiz per video (contract v2)
+- src/types.ts: `table_Reference` (rf_rfid, rf_sbid, rf_desc), `qq_rfid` on questions,
+  `QuizData.references`
+- src/constants.ts: `RFID_ORDER` (video-app order, 11 videos) replaces `SBID_ORDER`
+- src/quizData.ts: `orderedReferences` / `findReference` / `referenceQuestions` replace the
+  subject versions (filter by `qq_rfid`, file order, cap 50)
+- src/components/SubjectRow.tsx → ReferenceRow.tsx (git mv): shows `rf_desc`
+- src/app/quiz/[sb_sbid].tsx → [rf_rfid].tsx (git mv): route param `rf_rfid`, title `rf_desc`,
+  "This quiz has no questions."
+- src/app/index.tsx: `QuizzesScreen`, one ReferenceRow per video; src/app/_layout.tsx: route
+  `quiz/[rf_rfid]`
+- src/components/QuizSummary.tsx: `rf_desc` title, button "Back to quizzes"
+- Comments in constants.ts, update.tsx, UpdateBanner.tsx: "subject list" → "quiz list"
+- tsc: only error is the expected one — current quiz.json is v1 (no `references`); clears when
+  the v2 export is copied in (13f)
+- src/data/quiz.json: v2 export (2026-10-26T10:33Z) copied in — 151 questions, 11 references, no
+  orphan qq_rfid; tsc passes. Re-exported (2026-10-26T10:37Z) after the user ran the rf_rfid 21
+  spelling UPDATE — now "Quantitative 4NT"; re-copied, tsc passes
+- app.json: version 1.0.1
+
 ### Component reuse check
 - Bidding/hands/choices/summary/row are each one named component; SuitSymbol is shared by
   bidding and hands; no other screen renders the same shapes. The green panel style is repeated
@@ -167,11 +214,13 @@ Quiz app MVP — Expo app (copied from bridgeschool-native) running quizzes from
   extracted — to be agreed)
 
 ## Testing
-- [ ] Once dependencies are installed: npx tsc --noEmit and npx expo lint both pass
-- [ ] Subjects screen lists 7 subjects in this order: Two Way Checkback (24), Bergen Raises (34),
-      Re-doubles (16), Cue 1st and 2nd Controls (17), Michaels Cue Bid (25), Quantitative 4NT
-      (10), Lebensohl (25); footer shows "Bridge Quiz v1.0.0"
-- [ ] Open Bergen Raises: header shows the subject name, "Question 1 of 34", bidding table with
+- [ ] After copying in the v2 quiz.json: npx tsc --noEmit passes
+- [ ] Quiz list shows 11 rows in video-app order: Two Way Checkback (24), Bergen Raises (34),
+      Redoubles (16), Cue Bids 1st and 2nd Round Controls (17), Michaels Cue Bid (25),
+      Quantitative 4NT (10), Lebensohl: Part 1 (5), Part 2 (4), Part 3 (6), Part 4 (4), Part 5 (6);
+      footer shows "Bridge Quiz v1.0.1"
+- [ ] Open each Lebensohl part: only that part's questions, title is the part's full name
+- [ ] Open Bergen Raises: header shows the video name, "Question 1 of 34", bidding table with
       suit symbols (♥ ♦ red), question text and answers
 - [ ] Question 18 of Bergen Raises shows a South hand table (KQ92 / 732 / QJ8 / A86 under ♠ ♥ ♦ ♣)
 - [ ] Pick a wrong answer: it turns red, the correct one green, "Wrong — the answer is …", the
@@ -180,7 +229,7 @@ Quiz app MVP — Expo app (copied from bridgeschool-native) running quizzes from
       question order is always the same
 - [ ] Re-doubles: redoubles show as "XX", passes as "Pass", blanks empty
 - [ ] Finish Quantitative 4NT (10 questions): last button says "See score", summary shows
-      "n out of 10 correct"; Try again restarts at Question 1 with score reset; Back to subjects
+      "n out of 10 correct"; Try again restarts at Question 1 with score reset; Back to quizzes
       returns to the list
 - [ ] Leave a quiz mid-way with Back and reopen it: it starts again from Question 1 (nothing kept)
 - [ ] Help box: none appears (the current export has no qq_help text)

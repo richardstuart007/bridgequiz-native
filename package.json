@@ -1,6 +1,6 @@
 {
   "name": "bridgequiz-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "expo-router/entry",
   "dependencies": {
     "expo": "~58.0.17",
@@ -34,7 +34,6 @@
     "web": "expo start --web",
     "lint": "expo lint",
     "build:android": "npx eas-cli@latest build --profile preview --platform android",
-    "build:android:dev": "npx eas-cli@latest build --profile development --platform android",
     "release:android": "node scripts/releaseAndroid.mjs"
   },
   "private": true

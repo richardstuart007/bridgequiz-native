@@ -1,20 +1,23 @@
 //==============================================================================================
 //  1) DESCRIPTION
 //    QuizSummary — the end-of-quiz score, "7 out of 10 correct", with Try again and Back to
-//    subjects buttons. The score is not saved anywhere.
+//    quizzes buttons. The score is not saved anywhere.
 //
 //    Parameters:
-//      sb_title     — the subject name
+//      rf_desc      — the quiz (video) name
 //      correctCount — answers that were right
 //      total        — questions in the quiz
-//      onRetry      — tap on Try again (same subject, answers reshuffled)
-//      onBack       — tap on Back to subjects
+//      onRetry      — tap on Try again (same quiz, answers reshuffled)
+//      onBack       — tap on Back to quizzes
+//
+//  3) CHANGE HISTORY
+//    2026-10-25 — title is the video name rf_desc (was sb_title); button "Back to quizzes"
 //==============================================================================================
 
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 
 type Props = {
-  sb_title: string
+  rf_desc: string
   correctCount: number
   total: number
   onRetry: () => void
@@ -22,19 +25,19 @@ type Props = {
 }
 
 export default function QuizSummary(props: Props) {
-  const { sb_title, correctCount, total, onRetry, onBack } = props
+  const { rf_desc, correctCount, total, onRetry, onBack } = props
 
   const scoreText = `${correctCount} out of ${total} correct`
 
   return (
     <View style={styles.block}>
-      <Text style={styles.title}>{sb_title}</Text>
+      <Text style={styles.title}>{rf_desc}</Text>
       <Text style={styles.score}>{scoreText}</Text>
       <Pressable onPress={onRetry} style={[styles.button, styles.retryButton]}>
         <Text style={styles.buttonText}>Try again</Text>
       </Pressable>
       <Pressable onPress={onBack} style={[styles.button, styles.backButton]}>
-        <Text style={styles.buttonText}>Back to subjects</Text>
+        <Text style={styles.buttonText}>Back to quizzes</Text>
       </Pressable>
     </View>
   )

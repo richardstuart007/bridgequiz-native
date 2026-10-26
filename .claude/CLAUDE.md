@@ -49,9 +49,10 @@ Definitions: `next-bridgeschool/src/lib/tables/definitions.ts` and
   asks Claude to — reading the other project and writing here is within project isolation).
   Then bump `expo.version` and release. The export feature lives in next-bridgeschool and is
   changed only from a session opened there.
-- **JSON contract v1:** `{ exported_at, subjects: [sb_sbid, sb_owner, sb_subject, sb_title,
-  sb_level], questions: [qq_qqid, qq_sbid, qq_seq, qq_detail, qq_ans, qq_rounds, qq_north,
-  qq_east, qq_south, qq_west, qq_help] }`, questions sorted `qq_sbid, qq_seq`, values exactly
+- **JSON contract v2:** `{ exported_at, subjects: [sb_sbid, sb_owner, sb_subject, sb_title,
+  sb_level], references: [rf_rfid, rf_sbid, rf_desc], questions: [qq_qqid, qq_sbid, qq_rfid,
+  qq_seq, qq_detail, qq_ans, qq_rounds, qq_north, qq_east, qq_south, qq_west, qq_help] }`
+  (v1 had no `references` / `qq_rfid`; `npx tsc --noEmit` fails on a file not matching v2), questions sorted `qq_sbid, qq_seq`, values exactly
   as stored (nulls kept; bids like `'PASS'`, `'N'` = blank, parsed in the app as the web does).
 - JSON contract keeps DB column names exactly (`sb_`/`qq_` fields, no aliases), holding only the
   columns the app uses.
@@ -79,7 +80,11 @@ The global `~/.claude/CLAUDE.md` assumes Next.js + nextjs-shared. **This project
 - **Data delivery = static, bundled `src/data/quiz.json`** (changed same day from R2 download).
 - **Export** done by the owner from next-bridgeschool `/owner`, selecting the subjects; no R2
   upload, no R2 credentials.
-- **Quiz chosen by subject** only (not per video / `qq_rfid`).
+- **One quiz per video (`qq_rfid` / `trf_reference`)** — changed 2026-10-25 from "by subject"
+  so Lebensohl's 5 parts are separate quizzes, matching the video app. List order
+  `RFID_ORDER`, names `rf_desc`. **JSON contract v2** adds `references: [rf_rfid, rf_sbid,
+  rf_desc]` and `qq_rfid` on each question (subjects still exported; the owner still selects
+  subjects in `/owner`).
 - **Question order is never shuffled** — order matters, some questions must come before others.
   Sort column (`qq_seq` vs `qq_qqid`) — **user is reviewing**; the JSON carries both.
 - **Answer options are always shuffled** for display (else the correct `qq_ans[0]` would always
@@ -94,6 +99,14 @@ The global `~/.claude/CLAUDE.md` assumes Next.js + nextjs-shared. **This project
 
 ## Outstanding items
 
+- **Release v1.0.1** (one quiz per video, Lebensohl in 5 parts): committed 2026-10-26 — user runs
+  `npm run release:android`, then phone-tests (checklist in
+  `docs/archive/PLAN_quiz-app-mvp.md` › Testing).
+- **After testing:** remove the remaining dev-build redundancy — `npm uninstall expo-dev-client`
+  (approved install/uninstall) and the eas.json `development` profile (user request 2026-10-25).
+- `#commit` has no `npm run build` gate here (Expo project has no `build` script; the EAS
+  release is the real build) — tsc is the only local gate.
+
 - Question sort column (`qq_seq` vs `qq_qqid`) — user reviewing (identical for the first export).
 - No `qq_help` in the exported questions — feedback screen shows only right/wrong + correct
   answer until help text is added in next-bridgeschool.
@@ -102,7 +115,10 @@ The global `~/.claude/CLAUDE.md` assumes Next.js + nextjs-shared. **This project
   Expo project @richardstuart007-team/bridgequiz-native, ID
   `3abe22a7-b4c2-4710-8d9b-7997655fdfe1` (linked in app.json 2026-10-25). Release routine is
   the same as bridgeschool-native: bump app.json `expo.version` → commit + push →
-  `npm run release:android`.
+  `npm run release:android`. **The user runs builds/releases themselves** (wants to watch them) —
+  Claude only gives the command. Development build not needed — `build:android:dev` script
+  removed 2026-10-25; the `expo-dev-client` package and eas.json `development` profile remain
+  (could also go — not agreed).
 - Icon is Expo's placeholder (copied from bridgeschool-native).
 - richard-dashboard "Bridge Quiz" Android download card — instruction handed to the user
   2026-10-25 (one new `apps.ts` entry after the Android "Bridge School" entry, `androidDownload`

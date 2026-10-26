@@ -1,6 +1,6 @@
 //==============================================================================================
 //  1) DESCRIPTION
-//    UpdateBanner — the "New version available" banner shown above the subject list when a newer
+//    UpdateBanner — the "New version available" banner shown above the quiz list when a newer
 //    Android release exists. Tapping it calls onPress (opens the Update help screen).
 //
 //    Parameters:

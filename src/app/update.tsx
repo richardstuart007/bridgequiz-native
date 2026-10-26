@@ -6,7 +6,7 @@
 //    prompts.
 //
 //  2) NOTES
-//    Opened from the update banner on the Subjects screen.
+//    Opened from the update banner on the quiz list.
 //==============================================================================================
 
 import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'

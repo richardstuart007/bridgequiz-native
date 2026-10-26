@@ -1,24 +1,28 @@
 //==============================================================================================
 //  1) DESCRIPTION
-//    SubjectsScreen — the app's home screen: one SubjectRow per subject in quiz.json, in
-//    SBID_ORDER. Tapping a subject opens its Quiz. Below the list, the installed app version;
-//    on Android, an update banner above the list when a newer release exists.
+//    QuizzesScreen — the app's home screen: one ReferenceRow per video in quiz.json (one quiz
+//    per video), in RFID_ORDER. Tapping a row opens its Quiz. Below the list, the installed
+//    app version; on Android, an update banner above the list when a newer release exists.
 //
 //  2) NOTES
 //    The newer-release check runs once when the screen first mounts (Android only); any
 //    failure simply means no banner (same as bridgeschool-native).
+//
+//  3) CHANGE HISTORY
+//    2026-10-25 — one row per video (was per subject), so Lebensohl's 5 parts are listed
+//                 separately; renamed SubjectsScreen → QuizzesScreen
 //==============================================================================================
 
 import { useEffect, useState } from 'react'
 import { Platform, ScrollView, StyleSheet, Text } from 'react-native'
 import { router } from 'expo-router'
 
-import SubjectRow from '@/components/SubjectRow'
+import ReferenceRow from '@/components/ReferenceRow'
 import UpdateBanner from '@/components/UpdateBanner'
 import { appVersion, isNewerVersion, latestReleaseVersion } from '@/appVersion'
-import { orderedSubjects, subjectQuestions } from '@/quizData'
+import { orderedReferences, referenceQuestions } from '@/quizData'
 
-export default function SubjectsScreen() {
+export default function QuizzesScreen() {
   const [latestVersion, setLatestVersion] = useState<string | null>(null)
 
   useEffect(() => {
@@ -30,9 +34,9 @@ export default function SubjectsScreen() {
     checkForUpdate()
   }, [])
 
-  const rows = orderedSubjects().map(subject => ({
-    subject,
-    questionCount: subjectQuestions(subject.sb_sbid).length
+  const rows = orderedReferences().map(reference => ({
+    reference,
+    questionCount: referenceQuestions(reference.rf_rfid).length
   }))
   const installedVersion = appVersion()
   const showUpdateBanner = latestVersion !== null && isNewerVersion(latestVersion, installedVersion)
@@ -43,11 +47,11 @@ export default function SubjectsScreen() {
     <ScrollView contentContainerStyle={styles.list}>
       {showUpdateBanner && <UpdateBanner latestVersion={bannerVersion} onPress={openUpdate} />}
       {rows.map(row => (
-        <SubjectRow
-          key={row.subject.sb_sbid}
-          subject={row.subject}
+        <ReferenceRow
+          key={row.reference.rf_rfid}
+          reference={row.reference}
           questionCount={row.questionCount}
-          onPress={() => openQuiz(row.subject.sb_sbid)}
+          onPress={() => openQuiz(row.reference.rf_rfid)}
         />
       ))}
       <Text style={styles.version}>{versionText}</Text>
@@ -56,11 +60,11 @@ export default function SubjectsScreen() {
 }
 
 //----------------------------------------------------------------------------------------------
-//  openQuiz — navigates to the Quiz for a subject
-//  Params:  sb_sbid — the subject id
+//  openQuiz — navigates to the Quiz for a video
+//  Params:  rf_rfid — the video id
 //----------------------------------------------------------------------------------------------
-function openQuiz(sb_sbid: number): void {
-  router.push({ pathname: '/quiz/[sb_sbid]', params: { sb_sbid: String(sb_sbid) } })
+function openQuiz(rf_rfid: number): void {
+  router.push({ pathname: '/quiz/[rf_rfid]', params: { rf_rfid: String(rf_rfid) } })
 }
 
 //----------------------------------------------------------------------------------------------

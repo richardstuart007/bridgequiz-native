@@ -10,9 +10,16 @@
 //      sb_title   — subject name shown on screen
 //      sb_level   — level (Beginner, Intermediate, ...); exported but not shown for now
 //
+//    table_Reference — one video (next-bridgeschool trf_reference); each quiz is one video's
+//    questions:
+//      rf_rfid — video id; questions link to it by qq_rfid
+//      rf_sbid — the subject it belongs to
+//      rf_desc — the video name, shown as the quiz name (same names as bridgeschool-native)
+//
 //    table_Questions — one question (next-bridgeschool tqq_questions):
 //      qq_qqid   — question id
 //      qq_sbid   — the subject it belongs to
+//      qq_rfid   — the video (quiz) it belongs to
 //      qq_seq    — sequence within the subject
 //      qq_detail — the question text
 //      qq_ans    — the answers; qq_ans[0] is always the correct one
@@ -21,10 +28,15 @@
 //                  null; 'n'/'N' means an empty suit
 //      qq_help   — help text shown after answering; null or '' when there is none
 //
-//    QuizData — the whole quiz.json file:
+//    QuizData — the whole quiz.json file (contract v2):
 //      exported_at — UTC time next-bridgeschool exported the file
 //      subjects    — the exported subjects
+//      references  — their videos that have questions
 //      questions   — their questions, in qq_sbid, qq_seq order
+//
+//  3) CHANGE HISTORY
+//    2026-10-25 — contract v2: table_Reference, QuizData.references, qq_rfid (one quiz per
+//                 video, so Lebensohl's 5 parts are separate quizzes)
 //==============================================================================================
 
 export type table_Subject = {
@@ -35,9 +47,16 @@ export type table_Subject = {
   sb_level: string
 }
 
+export type table_Reference = {
+  rf_rfid: number
+  rf_sbid: number
+  rf_desc: string
+}
+
 export type table_Questions = {
   qq_qqid: number
   qq_sbid: number
+  qq_rfid: number
   qq_seq: number
   qq_detail: string
   qq_ans: string[]
@@ -52,5 +71,6 @@ export type table_Questions = {
 export type QuizData = {
   exported_at: string
   subjects: table_Subject[]
+  references: table_Reference[]
   questions: table_Questions[]
 }

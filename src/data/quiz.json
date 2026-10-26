@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-10-25T10:16:32.765Z",
+  "exported_at": "2026-10-26T10:37:17.363Z",
   "subjects": [
     {
       "sb_sbid": 6,
@@ -51,10 +51,68 @@
       "sb_level": "Intermediate"
     }
   ],
+  "references": [
+    {
+      "rf_rfid": 2,
+      "rf_sbid": 5,
+      "rf_desc": "Bergen Raises"
+    },
+    {
+      "rf_rfid": 3,
+      "rf_sbid": 6,
+      "rf_desc": "Cue Bids 1st and 2nd Round Controls"
+    },
+    {
+      "rf_rfid": 19,
+      "rf_sbid": 11,
+      "rf_desc": "Michaels Cue Bid"
+    },
+    {
+      "rf_rfid": 21,
+      "rf_sbid": 15,
+      "rf_desc": "Quantitative 4NT"
+    },
+    {
+      "rf_rfid": 22,
+      "rf_sbid": 16,
+      "rf_desc": "Redoubles"
+    },
+    {
+      "rf_rfid": 1,
+      "rf_sbid": 17,
+      "rf_desc": "Two Way Checkback"
+    },
+    {
+      "rf_rfid": 14,
+      "rf_sbid": 1006,
+      "rf_desc": "Lebensohl: Part 1 Introducing the 2NT relay bid"
+    },
+    {
+      "rf_rfid": 15,
+      "rf_sbid": 1006,
+      "rf_desc": "Lebensohl: Part 2 Direct bids at the 2 level"
+    },
+    {
+      "rf_rfid": 16,
+      "rf_sbid": 1006,
+      "rf_desc": "Lebensohl: Part 3 Cuebid Stayman"
+    },
+    {
+      "rf_rfid": 17,
+      "rf_sbid": 1006,
+      "rf_desc": "Lebensohl: Part 4 Game auctions without majors"
+    },
+    {
+      "rf_rfid": 18,
+      "rf_sbid": 1006,
+      "rf_desc": "Lebensohl: Part 5 The Negative Double"
+    }
+  ],
   "questions": [
     {
       "qq_qqid": 244,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 1,
       "qq_detail": "What do you respond to partner's 1H with 3 card support and 6-9 hcp ?",
       "qq_ans": [
@@ -80,6 +138,7 @@
     {
       "qq_qqid": 245,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 2,
       "qq_detail": "What do you respond to partner's 1H with 3 card support and 10-12 hcp ?",
       "qq_ans": [
@@ -105,6 +164,7 @@
     {
       "qq_qqid": 246,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 3,
       "qq_detail": "What do you respond to partner's 1S with 3 card support and 10-12 hcp ?",
       "qq_ans": [
@@ -130,6 +190,7 @@
     {
       "qq_qqid": 247,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 4,
       "qq_detail": "What do you respond to partner's 1H with 3 card support and 16+ hcp ?",
       "qq_ans": [
@@ -155,6 +216,7 @@
     {
       "qq_qqid": 248,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 5,
       "qq_detail": "What do you respond to partner's 1H with 4 card support and 6-9 hcp ?",
       "qq_ans": [
@@ -179,6 +241,7 @@
     {
       "qq_qqid": 249,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 6,
       "qq_detail": "What do you respond to partner's 1H with 4 card support and 10-12 hcp ?",
       "qq_ans": [
@@ -203,6 +266,7 @@
     {
       "qq_qqid": 250,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 7,
       "qq_detail": "What do you respond to partner's 1H with 4 card support and 0-5 hcp ?",
       "qq_ans": [
@@ -227,6 +291,7 @@
     {
       "qq_qqid": 251,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 8,
       "qq_detail": "What do you respond to partner's 1H with 4 card support and 13+ hcp ?",
       "qq_ans": [
@@ -252,6 +317,7 @@
     {
       "qq_qqid": 252,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 9,
       "qq_detail": "What do you respond to partner's 1H with 4 card support and 16+ hcp ?",
       "qq_ans": [
@@ -277,6 +343,7 @@
     {
       "qq_qqid": 253,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 10,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, VUL and NO singleton ?",
       "qq_ans": [
@@ -302,6 +369,7 @@
     {
       "qq_qqid": 254,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 11,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, VUL and a SINGLETON ?",
       "qq_ans": [
@@ -327,6 +395,7 @@
     {
       "qq_qqid": 255,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 12,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, NON-VUL and NO singleton ?",
       "qq_ans": [
@@ -352,6 +421,7 @@
     {
       "qq_qqid": 256,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 13,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 0-5 hcp, NON-VUL and a SINGLETON ?",
       "qq_ans": [
@@ -377,6 +447,7 @@
     {
       "qq_qqid": 257,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 14,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 6-9 hcp ?",
       "qq_ans": [
@@ -402,6 +473,7 @@
     {
       "qq_qqid": 258,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 15,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 10-12 hcp ?",
       "qq_ans": [
@@ -426,6 +498,7 @@
     {
       "qq_qqid": 259,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 16,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 13+ hcp ?",
       "qq_ans": [
@@ -451,6 +524,7 @@
     {
       "qq_qqid": 260,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 17,
       "qq_detail": "What do you respond to partner's 1H with 5 card support and 16+ hcp ?",
       "qq_ans": [
@@ -476,6 +550,7 @@
     {
       "qq_qqid": 261,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 18,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -506,6 +581,7 @@
     {
       "qq_qqid": 262,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 19,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -536,6 +612,7 @@
     {
       "qq_qqid": 263,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 20,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -566,6 +643,7 @@
     {
       "qq_qqid": 264,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 21,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -595,6 +673,7 @@
     {
       "qq_qqid": 265,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 22,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -623,6 +702,7 @@
     {
       "qq_qqid": 266,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 23,
       "qq_detail": "What is your bid and you are PLAYING 2/1 ?",
       "qq_ans": [
@@ -652,6 +732,7 @@
     {
       "qq_qqid": 267,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 24,
       "qq_detail": "What is your bid and you are PLAYING STANDARD AMERICAN ?",
       "qq_ans": [
@@ -681,6 +762,7 @@
     {
       "qq_qqid": 268,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 25,
       "qq_detail": "What does 3D by partner mean ?",
       "qq_ans": [
@@ -711,6 +793,7 @@
     {
       "qq_qqid": 269,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 26,
       "qq_detail": "What does 3H by partner mean ?",
       "qq_ans": [
@@ -741,6 +824,7 @@
     {
       "qq_qqid": 270,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 27,
       "qq_detail": "What does 3S by partner mean ?",
       "qq_ans": [
@@ -771,6 +855,7 @@
     {
       "qq_qqid": 271,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 28,
       "qq_detail": "What does 4C by partner mean ?",
       "qq_ans": [
@@ -802,6 +887,7 @@
     {
       "qq_qqid": 272,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 29,
       "qq_detail": "What does 4C by partner mean ?",
       "qq_ans": [
@@ -833,6 +919,7 @@
     {
       "qq_qqid": 273,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 30,
       "qq_detail": "What does 3C by partner mean ?",
       "qq_ans": [
@@ -863,6 +950,7 @@
     {
       "qq_qqid": 274,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 31,
       "qq_detail": "What does 3NT by partner mean ?",
       "qq_ans": [
@@ -894,6 +982,7 @@
     {
       "qq_qqid": 275,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 32,
       "qq_detail": "What does 3S by partner mean ?",
       "qq_ans": [
@@ -924,6 +1013,7 @@
     {
       "qq_qqid": 276,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 33,
       "qq_detail": "What does 4S by partner mean ?",
       "qq_ans": [
@@ -954,6 +1044,7 @@
     {
       "qq_qqid": 277,
       "qq_sbid": 5,
+      "qq_rfid": 2,
       "qq_seq": 34,
       "qq_detail": "You are PLAYING 2/1.  How do you agree spades ?",
       "qq_ans": [
@@ -983,6 +1074,7 @@
     {
       "qq_qqid": 288,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 1,
       "qq_detail": "What is 3S ?",
       "qq_ans": [
@@ -1013,6 +1105,7 @@
     {
       "qq_qqid": 289,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 2,
       "qq_detail": "What is 2S ?",
       "qq_ans": [
@@ -1043,6 +1136,7 @@
     {
       "qq_qqid": 290,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 3,
       "qq_detail": "What is 3S ?",
       "qq_ans": [
@@ -1073,6 +1167,7 @@
     {
       "qq_qqid": 291,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 4,
       "qq_detail": "3NT (3 hearts, 13-15 hcp).  What is 4C ?",
       "qq_ans": [
@@ -1103,6 +1198,7 @@
     {
       "qq_qqid": 292,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 5,
       "qq_detail": "What is 3S ?",
       "qq_ans": [
@@ -1133,6 +1229,7 @@
     {
       "qq_qqid": 293,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 6,
       "qq_detail": "First round control is ?",
       "qq_ans": [
@@ -1150,6 +1247,7 @@
     {
       "qq_qqid": 294,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 7,
       "qq_detail": "Second round control is ?",
       "qq_ans": [
@@ -1168,6 +1266,7 @@
     {
       "qq_qqid": 295,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 8,
       "qq_detail": "What is 3S ?",
       "qq_ans": [
@@ -1192,6 +1291,7 @@
     {
       "qq_qqid": 296,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 9,
       "qq_detail": "You have Ace of diamonds and King of Clubs, what do you bid ? ",
       "qq_ans": [
@@ -1216,6 +1316,7 @@
     {
       "qq_qqid": 297,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 10,
       "qq_detail": "What does 4C mean ?",
       "qq_ans": [
@@ -1246,6 +1347,7 @@
     {
       "qq_qqid": 298,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 11,
       "qq_detail": "What does 4D mean ?",
       "qq_ans": [
@@ -1277,6 +1379,7 @@
     {
       "qq_qqid": 299,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 12,
       "qq_detail": "What does 4H mean ?",
       "qq_ans": [
@@ -1314,6 +1417,7 @@
     {
       "qq_qqid": 300,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 13,
       "qq_detail": "3D (bergen).  What does 4C mean ?",
       "qq_ans": [
@@ -1345,6 +1449,7 @@
     {
       "qq_qqid": 301,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 14,
       "qq_detail": "What is 4C ?",
       "qq_ans": [
@@ -1370,6 +1475,7 @@
     {
       "qq_qqid": 302,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 15,
       "qq_detail": "3NT(3card heart and 12-15 hcp).  What is your bid ?",
       "qq_ans": [
@@ -1399,6 +1505,7 @@
     {
       "qq_qqid": 303,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 16,
       "qq_detail": "3C(stayman).  What is 3S ?",
       "qq_ans": [
@@ -1435,6 +1542,7 @@
     {
       "qq_qqid": 304,
       "qq_sbid": 6,
+      "qq_rfid": 3,
       "qq_seq": 17,
       "qq_detail": "What does 4D show ?",
       "qq_ans": [
@@ -1470,6 +1578,7 @@
     {
       "qq_qqid": 305,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 1,
       "qq_detail": "What does this cue bid mean ?",
       "qq_ans": [
@@ -1493,6 +1602,7 @@
     {
       "qq_qqid": 306,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 2,
       "qq_detail": "What does this cue bid mean ?",
       "qq_ans": [
@@ -1517,6 +1627,7 @@
     {
       "qq_qqid": 307,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 3,
       "qq_detail": "Is this Michaels ?",
       "qq_ans": [
@@ -1540,6 +1651,7 @@
     {
       "qq_qqid": 308,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 4,
       "qq_detail": "2D multi.  Is this Michaels ?",
       "qq_ans": [
@@ -1563,6 +1675,7 @@
     {
       "qq_qqid": 309,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 5,
       "qq_detail": "Strong artificial club.  Is this Michaels ?",
       "qq_ans": [
@@ -1586,6 +1699,7 @@
     {
       "qq_qqid": 310,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 6,
       "qq_detail": "1C shows 2+.  Is this Michaels ?",
       "qq_ans": [
@@ -1609,6 +1723,7 @@
     {
       "qq_qqid": 311,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 7,
       "qq_detail": "Is this Michaels ?",
       "qq_ans": [
@@ -1632,6 +1747,7 @@
     {
       "qq_qqid": 312,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 8,
       "qq_detail": "Where opponents have the points Michaels is a good disruptor ?",
       "qq_ans": [
@@ -1648,6 +1764,7 @@
     {
       "qq_qqid": 313,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 9,
       "qq_detail": "Michaels is good at all vulnerabilities as a disruptor of opponents ?",
       "qq_ans": [
@@ -1664,6 +1781,7 @@
     {
       "qq_qqid": 314,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 10,
       "qq_detail": "Vulnerability counts on whether to bid Michaels",
       "qq_ans": [
@@ -1680,6 +1798,7 @@
     {
       "qq_qqid": 315,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 11,
       "qq_detail": "What hand features influence whether to bid Michaels",
       "qq_ans": [
@@ -1697,6 +1816,7 @@
     {
       "qq_qqid": 316,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 12,
       "qq_detail": "Favourable vulnerability we can be very weak ?",
       "qq_ans": [
@@ -1720,6 +1840,7 @@
     {
       "qq_qqid": 317,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 13,
       "qq_detail": "What does 3C show ?",
       "qq_ans": [
@@ -1744,6 +1865,7 @@
     {
       "qq_qqid": 318,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 14,
       "qq_detail": "What does 2NT mean ?",
       "qq_ans": [
@@ -1768,6 +1890,7 @@
     {
       "qq_qqid": 319,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 15,
       "qq_detail": "What does this mean ?",
       "qq_ans": [
@@ -1792,6 +1915,7 @@
     {
       "qq_qqid": 320,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 16,
       "qq_detail": "What does this show ?",
       "qq_ans": [
@@ -1816,6 +1940,7 @@
     {
       "qq_qqid": 321,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 17,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -1845,6 +1970,7 @@
     {
       "qq_qqid": 322,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 18,
       "qq_detail": "What does 2NT mean ?",
       "qq_ans": [
@@ -1869,6 +1995,7 @@
     {
       "qq_qqid": 323,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 19,
       "qq_detail": "What does 3NT mean ?",
       "qq_ans": [
@@ -1892,6 +2019,7 @@
     {
       "qq_qqid": 324,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 20,
       "qq_detail": "What does 4C mean ?",
       "qq_ans": [
@@ -1916,6 +2044,7 @@
     {
       "qq_qqid": 325,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 21,
       "qq_detail": "What does 4NT mean ?",
       "qq_ans": [
@@ -1940,6 +2069,7 @@
     {
       "qq_qqid": 326,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 22,
       "qq_detail": "What does 3S mean ?",
       "qq_ans": [
@@ -1964,6 +2094,7 @@
     {
       "qq_qqid": 327,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 23,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -1993,6 +2124,7 @@
     {
       "qq_qqid": 328,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 24,
       "qq_detail": "What do you bid with a minimum ?",
       "qq_ans": [
@@ -2023,6 +2155,7 @@
     {
       "qq_qqid": 329,
       "qq_sbid": 11,
+      "qq_rfid": 19,
       "qq_seq": 25,
       "qq_detail": "What do you bid with a maximum ?",
       "qq_ans": [
@@ -2053,6 +2186,7 @@
     {
       "qq_qqid": 278,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 1,
       "qq_detail": "What is 4NT ?",
       "qq_ans": [
@@ -2078,6 +2212,7 @@
     {
       "qq_qqid": 279,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 2,
       "qq_detail": "What is 4NT ?",
       "qq_ans": [
@@ -2103,6 +2238,7 @@
     {
       "qq_qqid": 280,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 3,
       "qq_detail": "What is 4NT ?",
       "qq_ans": [
@@ -2132,6 +2268,7 @@
     {
       "qq_qqid": 281,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 4,
       "qq_detail": "What is 3H ?",
       "qq_ans": [
@@ -2162,6 +2299,7 @@
     {
       "qq_qqid": 282,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 5,
       "qq_detail": "What is 3S ?",
       "qq_ans": [
@@ -2192,6 +2330,7 @@
     {
       "qq_qqid": 283,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 6,
       "qq_detail": "What is 4NT ?",
       "qq_ans": [
@@ -2221,6 +2360,7 @@
     {
       "qq_qqid": 284,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 7,
       "qq_detail": "What is 4NT ?",
       "qq_ans": [
@@ -2250,6 +2390,7 @@
     {
       "qq_qqid": 285,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 8,
       "qq_detail": "What is 4NT ?",
       "qq_ans": [
@@ -2279,6 +2420,7 @@
     {
       "qq_qqid": 286,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 9,
       "qq_detail": "What is 2S ?",
       "qq_ans": [
@@ -2309,6 +2451,7 @@
     {
       "qq_qqid": 287,
       "qq_sbid": 15,
+      "qq_rfid": 21,
       "qq_seq": 10,
       "qq_detail": "What is 4NT ?",
       "qq_ans": [
@@ -2338,6 +2481,7 @@
     {
       "qq_qqid": 126,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 1,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2362,6 +2506,7 @@
     {
       "qq_qqid": 127,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 2,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2386,6 +2531,7 @@
     {
       "qq_qqid": 128,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 3,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2416,6 +2562,7 @@
     {
       "qq_qqid": 129,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 4,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2446,6 +2593,7 @@
     {
       "qq_qqid": 130,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 5,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2476,6 +2624,7 @@
     {
       "qq_qqid": 131,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 6,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2506,6 +2655,7 @@
     {
       "qq_qqid": 132,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 7,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2530,6 +2680,7 @@
     {
       "qq_qqid": 133,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 8,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2554,6 +2705,7 @@
     {
       "qq_qqid": 134,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 9,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2584,6 +2736,7 @@
     {
       "qq_qqid": 135,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 10,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2614,6 +2767,7 @@
     {
       "qq_qqid": 136,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 11,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2644,6 +2798,7 @@
     {
       "qq_qqid": 137,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 12,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2674,6 +2829,7 @@
     {
       "qq_qqid": 138,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 13,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2704,6 +2860,7 @@
     {
       "qq_qqid": 139,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 14,
       "qq_detail": "We are looking to bid 3NT with a cue bid of their suit at the 3 level as a stopper ask.  They double and we redouble.  For 3X  X  XX.  What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2721,6 +2878,7 @@
     {
       "qq_qqid": 140,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 15,
       "qq_detail": "We are looking to bid 3NT with a cue bid of their suit at the 3 level as a stopper ask.  They double and we bid 3NT.  What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2738,6 +2896,7 @@
     {
       "qq_qqid": 141,
       "qq_sbid": 16,
+      "qq_rfid": 22,
       "qq_seq": 16,
       "qq_detail": "What does this bidding sequence mean ?",
       "qq_ans": [
@@ -2774,6 +2933,7 @@
     {
       "qq_qqid": 220,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 1,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -2810,6 +2970,7 @@
     {
       "qq_qqid": 221,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 2,
       "qq_detail": "What does their 2D bid mean ?",
       "qq_ans": [
@@ -2845,6 +3006,7 @@
     {
       "qq_qqid": 222,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 3,
       "qq_detail": "What do you bid ?",
       "qq_ans": [
@@ -2880,6 +3042,7 @@
     {
       "qq_qqid": 223,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 4,
       "qq_detail": "What is partners bid of 3D ?",
       "qq_ans": [
@@ -2921,6 +3084,7 @@
     {
       "qq_qqid": 224,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 5,
       "qq_detail": "What do you bid ?",
       "qq_ans": [
@@ -2963,6 +3127,7 @@
     {
       "qq_qqid": 225,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 6,
       "qq_detail": "What do you bid ?",
       "qq_ans": [
@@ -2999,6 +3164,7 @@
     {
       "qq_qqid": 226,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 7,
       "qq_detail": "What does your partners bid mean ?",
       "qq_ans": [
@@ -3033,6 +3199,7 @@
     {
       "qq_qqid": 227,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 8,
       "qq_detail": "What do we bid ?",
       "qq_ans": [
@@ -3069,6 +3236,7 @@
     {
       "qq_qqid": 228,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 9,
       "qq_detail": "What do you bid ?",
       "qq_ans": [
@@ -3105,6 +3273,7 @@
     {
       "qq_qqid": 229,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 10,
       "qq_detail": "How do you invite in hearts ?",
       "qq_ans": [
@@ -3141,6 +3310,7 @@
     {
       "qq_qqid": 230,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 11,
       "qq_detail": "What is your bid with 4 clubs ?",
       "qq_ans": [
@@ -3171,6 +3341,7 @@
     {
       "qq_qqid": 231,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 12,
       "qq_detail": "How do you invite in hearts ?",
       "qq_ans": [
@@ -3212,6 +3383,7 @@
     {
       "qq_qqid": 232,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 13,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -3247,6 +3419,7 @@
     {
       "qq_qqid": 233,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 14,
       "qq_detail": "What does 2S mean ?",
       "qq_ans": [
@@ -3288,6 +3461,7 @@
     {
       "qq_qqid": 234,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 15,
       "qq_detail": "How do you invite in hearts ?",
       "qq_ans": [
@@ -3323,6 +3497,7 @@
     {
       "qq_qqid": 235,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 16,
       "qq_detail": "What is partner's hand ?",
       "qq_ans": [
@@ -3364,6 +3539,7 @@
     {
       "qq_qqid": 236,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 17,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -3406,6 +3582,7 @@
     {
       "qq_qqid": 237,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 18,
       "qq_detail": "What is your bid to stop in 2H",
       "qq_ans": [
@@ -3441,6 +3618,7 @@
     {
       "qq_qqid": 238,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 19,
       "qq_detail": "How do you stop in 2D ?",
       "qq_ans": [
@@ -3475,6 +3653,7 @@
     {
       "qq_qqid": 239,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 20,
       "qq_detail": "You hold 3 spades and 14HCP and open.What is next your bid ?",
       "qq_ans": [
@@ -3504,6 +3683,7 @@
     {
       "qq_qqid": 240,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 21,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -3539,6 +3719,7 @@
     {
       "qq_qqid": 241,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 22,
       "qq_detail": "What is partner's hand ?",
       "qq_ans": [
@@ -3569,6 +3750,7 @@
     {
       "qq_qqid": 242,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 23,
       "qq_detail": "What is your bid ?",
       "qq_ans": [
@@ -3604,6 +3786,7 @@
     {
       "qq_qqid": 243,
       "qq_sbid": 17,
+      "qq_rfid": 1,
       "qq_seq": 24,
       "qq_detail": "You have 15HCP with 5 card diamonds and 4 Spades.  What bid do you make ?",
       "qq_ans": [
@@ -3634,6 +3817,7 @@
     {
       "qq_qqid": 336,
       "qq_sbid": 1006,
+      "qq_rfid": 14,
       "qq_seq": 1,
       "qq_detail": "What do you bid without interference to your partners 1NT opening ?",
       "qq_ans": [
@@ -3664,6 +3848,7 @@
     {
       "qq_qqid": 337,
       "qq_sbid": 1006,
+      "qq_rfid": 14,
       "qq_seq": 2,
       "qq_detail": "What do you bid with 2H interference to your partners 1NT opening ?",
       "qq_ans": [
@@ -3693,6 +3878,7 @@
     {
       "qq_qqid": 339,
       "qq_sbid": 1006,
+      "qq_rfid": 14,
       "qq_seq": 4,
       "qq_detail": "What do you bid with 2H interference to your partners 1NT opening ?",
       "qq_ans": [
@@ -3723,6 +3909,7 @@
     {
       "qq_qqid": 340,
       "qq_sbid": 1006,
+      "qq_rfid": 14,
       "qq_seq": 5,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -3759,6 +3946,7 @@
     {
       "qq_qqid": 341,
       "qq_sbid": 1006,
+      "qq_rfid": 14,
       "qq_seq": 6,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -3793,6 +3981,7 @@
     {
       "qq_qqid": 342,
       "qq_sbid": 1006,
+      "qq_rfid": 15,
       "qq_seq": 7,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -3823,6 +4012,7 @@
     {
       "qq_qqid": 343,
       "qq_sbid": 1006,
+      "qq_rfid": 15,
       "qq_seq": 8,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -3853,6 +4043,7 @@
     {
       "qq_qqid": 344,
       "qq_sbid": 1006,
+      "qq_rfid": 15,
       "qq_seq": 9,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -3883,6 +4074,7 @@
     {
       "qq_qqid": 345,
       "qq_sbid": 1006,
+      "qq_rfid": 15,
       "qq_seq": 10,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -3913,6 +4105,7 @@
     {
       "qq_qqid": 346,
       "qq_sbid": 1006,
+      "qq_rfid": 16,
       "qq_seq": 11,
       "qq_detail": "After the following bidding, what does 3D by you mean ?",
       "qq_ans": [
@@ -3957,6 +4150,7 @@
     {
       "qq_qqid": 349,
       "qq_sbid": 1006,
+      "qq_rfid": 16,
       "qq_seq": 14,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -3986,6 +4180,7 @@
     {
       "qq_qqid": 350,
       "qq_sbid": 1006,
+      "qq_rfid": 16,
       "qq_seq": 15,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4022,6 +4217,7 @@
     {
       "qq_qqid": 353,
       "qq_sbid": 1006,
+      "qq_rfid": 16,
       "qq_seq": 18,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4051,6 +4247,7 @@
     {
       "qq_qqid": 355,
       "qq_sbid": 1006,
+      "qq_rfid": 16,
       "qq_seq": 20,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4081,6 +4278,7 @@
     {
       "qq_qqid": 359,
       "qq_sbid": 1006,
+      "qq_rfid": 16,
       "qq_seq": 24,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4125,6 +4323,7 @@
     {
       "qq_qqid": 363,
       "qq_sbid": 1006,
+      "qq_rfid": 17,
       "qq_seq": 28,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4154,6 +4353,7 @@
     {
       "qq_qqid": 364,
       "qq_sbid": 1006,
+      "qq_rfid": 17,
       "qq_seq": 29,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4189,6 +4389,7 @@
     {
       "qq_qqid": 366,
       "qq_sbid": 1006,
+      "qq_rfid": 17,
       "qq_seq": 31,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4223,6 +4424,7 @@
     {
       "qq_qqid": 367,
       "qq_sbid": 1006,
+      "qq_rfid": 18,
       "qq_seq": 32,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4251,6 +4453,7 @@
     {
       "qq_qqid": 369,
       "qq_sbid": 1006,
+      "qq_rfid": 18,
       "qq_seq": 34,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4281,6 +4484,7 @@
     {
       "qq_qqid": 370,
       "qq_sbid": 1006,
+      "qq_rfid": 18,
       "qq_seq": 35,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4310,6 +4514,7 @@
     {
       "qq_qqid": 371,
       "qq_sbid": 1006,
+      "qq_rfid": 18,
       "qq_seq": 36,
       "qq_detail": "After the following bidding, what is your bid ?",
       "qq_ans": [
@@ -4345,6 +4550,7 @@
     {
       "qq_qqid": 1040,
       "qq_sbid": 1006,
+      "qq_rfid": 17,
       "qq_seq": 37,
       "qq_detail": "What is your bid?",
       "qq_ans": [
@@ -4390,6 +4596,7 @@
     {
       "qq_qqid": 1041,
       "qq_sbid": 1006,
+      "qq_rfid": 18,
       "qq_seq": 38,
       "qq_detail": "What is your bid?",
       "qq_ans": [
@@ -4434,6 +4641,7 @@
     {
       "qq_qqid": 1042,
       "qq_sbid": 1006,
+      "qq_rfid": 18,
       "qq_seq": 39,
       "qq_detail": "What is your bid?",
       "qq_ans": [

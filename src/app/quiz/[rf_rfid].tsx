@@ -1,18 +1,21 @@
 //==============================================================================================
 //  1) DESCRIPTION
-//    QuizScreen — runs one subject's quiz, one question at a time: progress line, bidding,
+//    QuizScreen — runs one video's quiz, one question at a time: progress line, bidding,
 //    hands, the question and its shuffled answers. Once an answer is picked it shows right /
 //    wrong, the correct answer and any help text, then Next. After the last question it shows
-//    the score ("7 out of 10 correct") with Try again / Back to subjects.
+//    the score ("7 out of 10 correct") with Try again / Back to quizzes.
 //
 //    Parameters:
-//      sb_sbid (route param) — the subject id, from the Subjects screen
+//      rf_rfid (route param) — the video id, from the quiz list
 //
 //  2) NOTES
 //    Everything is held in memory only — nothing is saved; leaving the screen discards it.
 //    Questions stay in file order (never shuffled); only each question's answers are shuffled.
 //    The shuffle for every question is made once when the quiz starts (and again on Try
 //    again) so the order does not change while a question is on screen.
+//
+//  3) CHANGE HISTORY
+//    2026-10-25 — one quiz per video: route param rf_rfid (was sb_sbid), title rf_desc
 //==============================================================================================
 
 import { useRef, useState } from 'react'
@@ -24,14 +27,14 @@ import QuizChoices, { type QuizChoice } from '@/components/QuizChoices'
 import QuizFeedback from '@/components/QuizFeedback'
 import QuizHands from '@/components/QuizHands'
 import QuizSummary from '@/components/QuizSummary'
-import { findSubject, subjectQuestions } from '@/quizData'
+import { findReference, referenceQuestions } from '@/quizData'
 import type { table_Questions } from '@/types'
 
 export default function QuizScreen() {
-  const params = useLocalSearchParams<{ sb_sbid: string }>()
-  const sb_sbid = Number(params.sb_sbid)
-  const subject = findSubject(sb_sbid)
-  const questions = subjectQuestions(sb_sbid)
+  const params = useLocalSearchParams<{ rf_rfid: string }>()
+  const rf_rfid = Number(params.rf_rfid)
+  const reference = findReference(rf_rfid)
+  const questions = referenceQuestions(rf_rfid)
 
   const [index, setIndex] = useState(0)
   const [pickedIndex, setPickedIndex] = useState<number | null>(null)
@@ -76,9 +79,9 @@ export default function QuizScreen() {
     setChoiceOrders(shuffledChoiceOrders(questions))
   }
 
-  const sb_title = subject?.sb_title ?? ''
+  const rf_desc = reference?.rf_desc ?? ''
   const question = questions[index] ?? null
-  const hasQuestions = subject !== null && question !== null
+  const hasQuestions = reference !== null && question !== null
   const showNoQuestions = !hasQuestions
   const showSummary = hasQuestions && isFinished
   const showQuestion = hasQuestions && !isFinished
@@ -95,11 +98,11 @@ export default function QuizScreen() {
 
   return (
     <ScrollView ref={scrollRef} contentContainerStyle={styles.screen}>
-      <Stack.Screen options={{ title: sb_title }} />
-      {showNoQuestions && <Text style={styles.message}>This subject has no questions.</Text>}
+      <Stack.Screen options={{ title: rf_desc }} />
+      {showNoQuestions && <Text style={styles.message}>This quiz has no questions.</Text>}
       {showSummary && (
         <QuizSummary
-          sb_title={sb_title}
+          rf_desc={rf_desc}
           correctCount={correctCount}
           total={questions.length}
           onRetry={handleRetry}
@@ -156,7 +159,7 @@ function shuffle<T>(list: T[]): T[] {
 }
 
 //----------------------------------------------------------------------------------------------
-//  goBack — returns to the Subjects screen
+//  goBack — returns to the quiz list
 //----------------------------------------------------------------------------------------------
 function goBack(): void {
   router.back()
